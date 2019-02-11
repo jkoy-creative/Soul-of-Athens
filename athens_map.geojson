@@ -1,0 +1,75 @@
+﻿{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Age 12",
+        "description": "Baker University Center"
+      },
+      "geometry": {
+        "coordinates": [
+          82.1017,
+          39.3248
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Age 13",
+        "description": "Strouds Run Park"
+      },
+      "geometry": {
+        "coordinates": [
+          82.0163,
+          39.3353
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Age 15",
+        "description": "Arts West"
+      },
+      "geometry": {
+        "coordinates": [
+          82.1075,
+          39.3324
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Age 17",
+        "description": "Dairy Barn"
+      },
+      "geometry": {
+        "coordinates": [
+          82.1151,
+          39.3146
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Age 19",
+        "description": "Casa Nueva"
+      },
+      "geometry": {
+        "coordinates": [
+          82.1012,
+          39.3308
+        ],
+        "type": "Point"
+      }
+    }
+  ],
+  "type": "FeatureCollection"
+}
