@@ -1,8 +1,8 @@
 
 body {
   max-width: 100%;
-  color: #ffffff;
-  background: #3d3d3d;
+  color: #3d3d3d;
+  background: #ffffff;
 	margin: 0;
   font-size: 1rem;
   letter-spacing: 0rem;
@@ -10,71 +10,81 @@ body {
   font-family: "Cormorant Garamond", serif;
   font-weight: lighter;
   position: absolute;
+  flex-direction: row;
 }
 
-p {
-  margin-bottom: 20px;
-  line-height: 1.5;
-  padding: 0 20px;
-  min-width:800px;
-  display:flex;
-
+img {
+  width 100%;
 }
-
-.section {}
 
 a {
 	text-decoration: none;
 }
 
+p {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  padding: 0 40px;
+  display:flex;
+  width: 70%;
+  flex-direction: column;
+}
+
+.section1, .section2, .section3, .section4, .section5, .section6 {
+  height: 1000px;
+  display: block;
+  margin: 30px 100px;
+}
+
+
+
 header {
-	color: white;
-	text-align: center;
-	height: 400px;
-	box-sizing: border-box;
-	position: relative;
-	padding-top: 20px;
-  background-color: #c78b44;
-	color: #3d3d3d;
-	font-family: "Nunito Sans", "Lato", sans-serif;
-	box-sizing: border-box;
   flex-direction: row;
   bottom: 0;
   width: 100%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   background: #fff;
   z-index: 10;
-    &--top {
-        position: fixed;
-        top: 0;
-    }
 }
 
-.titlesection {
+.introText {
+  display: flex;
+  padding:100px;
+  color: #FFFFFF;
+}
+
+#top h1 .black {
+  background-color: #c78b44;
+  color:black;
+}
+
+header {
+  background-image: url('../img/SOA2019-26.jpg');
+  height:1000px;
+  position: relative;
+}
+
+.progressBar {
   position: fixed;
 	top: 0;
 	left: 0;
 	right: 0;
+  height:7px;
 	width: 100%;
   background-color: #c78b44;
-	opacity: 0.8;
-	z-index:-1;
 }
 
-.sticky {
-  position: fixed;
-	opacity: 0.85;
-	z-index: 1;
-	-webkit-animation: moveDown .5s;
+@-webkit-keyframes moveDown {
+	0% { -webkit-transform: translateY(-40px) }
 }
 
 h1 {
-  font-size: 30px;
+  font-family: "Nunito Sans", "Lato", sans-serif;
+  font-size: 70px;
   margin: 0;
   letter-spacing: .2rem;
 	text-transform:uppercase;
-  display:flex;
-  content-align:left;
+  display:block;
 }
 
 h2 {
@@ -83,4 +93,13 @@ h2 {
   margin: 0;
   letter-spacing: 0rem;
 	text-transform:uppercase;
+}
+
+h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 20px;
+  display: block;
+  width: 40%;
+  font-weight: lighter;
+  display: flex;
 }
