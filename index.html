@@ -27,11 +27,24 @@
 
     <body>
         <header>
-          <div class="progressBar"></div>
+          <div class="progress-container">
+            <div class="progressBar" id="progressBar"></div>
+            <script>
+              function progressBarScroll() {
+                let winScroll = document.body.scrollTop || document.documentElement.scrollTop,
+                height = document.documentElement.scrollHeight - document.documentElement.clientHeight,
+                scrolled = (winScroll / height) * 100;
+                document.getElementById("progressBar").style.width = scrolled + "%";
+              }
+              window.onscroll = function () {
+                progressBarScroll();
+              };
+            </script>
+          </div><!-- Close Progress Container -->
         <!-- Photo Evan Here -->
-        <div class="introText col-6">
-          <h1 id="top" class='col-6'>"Raised to be stoic."</h1>
-          <h3 class="introP">On a Friday evening in Athens, Ohio, many college students are typically on their way out to the lively uptown bars, or maybe a underground house show, or a date night party. Evan Phillips Friday nights are far from that.
+        <div class="introText">
+          <h1 id="top">"Raised to be stoic."</h1>
+          <h3>On a Friday evening in Athens, Ohio, many college students are typically on their way out to the lively uptown bars, or maybe a underground house show, or a date night party. Evan Phillips Friday nights are far from that.
 “My hard drive crashed, I’m feeling really stressed right now. Whenever I’m having a shitty day I like to go for a drive” In a 2002 Lexus covered in bumper stickers, Phillips drives down the windy backroads of Athens County to clear his mind. “I either take the 20 minute route or the 45 minute route…but I’m thinking I want to do the 45 minute route now”
 Through his car stereo plays you can hear the low, upbeat and very distinctive music of early 90s rock band Modest Mouse, as Evan plays his “sad shit” playlist from Spotify. We laugh, because I tell him I have modest mouse on my  playlist titled self deprecating. Bluegrass, low-fi hip hop, and non-mainstream artists are also on his playlist. Most Friday evenings Evan spends his time at home, usually reminiscing on “other sad” things. He doesn’t love the bar culture here, so he typically avoids it and would rather spend his time working in his storage unit on his broken down Honda motorcycle.</h3>
         </div>

@@ -37,40 +37,32 @@ p {
 }
 
 
-
-header {
-  flex-direction: row;
-  bottom: 0;
-  width: 100%;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  background: #fff;
-  z-index: 10;
-}
-
 .introText {
-  display: flex;
-  padding:100px;
+  display:block;
+  padding:75px;
   color: #FFFFFF;
-}
-
-#top h1 .black {
-  background-color: #c78b44;
-  color:black;
 }
 
 header {
   background-image: url('../img/SOA2019-26.jpg');
-  height:1000px;
+  background-size: cover;
+  background-position: right;
+  background-attachment: fixed;
   position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.progress-container{
+  position:fixed;
+  height:7px;
+  background-color: rgba(150, 150, 150, 0.0);
+  width:100%;
 }
 
 .progressBar {
-  position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-  height:7px;
-	width: 100%;
+  width: 0%;
+  height: 7px;
   background-color: #c78b44;
 }
 
@@ -97,9 +89,10 @@ h2 {
 
 h3 {
   font-family: "Cormorant Garamond", serif;
-  font-size: 20px;
+  font-size: 19px;
+  line-height: 1.8rem;
   display: block;
-  width: 40%;
+  width: 30%;
   font-weight: lighter;
   display: flex;
 }
