@@ -31,9 +31,8 @@ p {
 }
 
 .section1, .section2, .section3, .section4, .section5, .section6 {
-  height: 1000px;
   display: block;
-  margin: 30px 100px;
+  margin: 75px 200px;
 }
 
 
@@ -41,6 +40,7 @@ p {
   display:block;
   padding:75px;
   color: #FFFFFF;
+  height: 600px;
 }
 
 header {
@@ -77,14 +77,14 @@ h1 {
   letter-spacing: .2rem;
 	text-transform:uppercase;
   display:block;
+  font-weight: lighter;
 }
 
 h2 {
-  font-family: "Nunito Sans", "Lato", sans-serif;
-  font-size: 20px;
+  font-family: "Cormorant Garamond", "Lato", sans-serif;
+  font-size: 25px;
   margin: 0;
-  letter-spacing: 0rem;
-	text-transform:uppercase;
+  font-weight: lighter;
 }
 
 h3 {
@@ -95,4 +95,41 @@ h3 {
   width: 30%;
   font-weight: lighter;
   display: flex;
+}
+
+/* Headphones Disclaimer */
+h4 {
+  color:#c78b44;
+  font-family: "Nunito Sans", "Lato", sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+}
+
+.subhead{
+  width:30%;
+  margin-top: 25px;
+}
+
+.disclaimer {display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.headphoneicon {
+  width: 30px;
+  height: 30px;
+  margin-right: 12px;
+}
+
+.portraitIntro{
+  display: flex;
+  flex-direction: row;
+  justify-content: center
+}
+
+.verticalPortrait{
+  width: 30%;
+  height: 30%;
 }
