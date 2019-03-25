@@ -25,9 +25,9 @@ p {
   margin-bottom: 20px;
   line-height: 1.5;
   padding: 0 40px;
-  display:flex;
-  width: 70%;
-  flex-direction: column;
+  width: 100%;
+  text-indent: 15px;
+
 }
 
 .section1, .section2, .section3, .section4, .section5, .section6 {
@@ -126,7 +126,7 @@ h4 {
 .portraitIntro{
   display: flex;
   flex-direction: row;
-  justify-content: center
+  justify-content: center;
 }
 
 .verticalPortrait{
