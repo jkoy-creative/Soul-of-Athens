@@ -7,27 +7,30 @@
 	       <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
 	       <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
 	       <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
-        <style>
 
+        <style>
         </style>
+
+        <script type="text/text/javascript" src="js/script.js"></script>
     </head>
 
     <body>
+    <div class="wrapper-parallax">
+      <div class="progress-container">
+        <div class="progressBar" id="progressBar"></div>
+        <script>
+          function progressBarScroll() {
+            let winScroll = document.body.scrollTop || document.documentElement.scrollTop,
+            height = document.documentElement.scrollHeight - document.documentElement.clientHeight,
+            scrolled = (winScroll / height) * 100;
+            document.getElementById("progressBar").style.width = scrolled + "%";
+          }
+          window.onscroll = function () {
+            progressBarScroll();
+          };
+        </script>
+      </div><!-- Close Progress Container -->
         <header>
-          <div class="progress-container">
-            <div class="progressBar" id="progressBar"></div>
-            <script>
-              function progressBarScroll() {
-                let winScroll = document.body.scrollTop || document.documentElement.scrollTop,
-                height = document.documentElement.scrollHeight - document.documentElement.clientHeight,
-                scrolled = (winScroll / height) * 100;
-                document.getElementById("progressBar").style.width = scrolled + "%";
-              }
-              window.onscroll = function () {
-                progressBarScroll();
-              };
-            </script>
-          </div><!-- Close Progress Container -->
         <!-- Photo Evan Here -->
         <div class="introText">
           <h1 id="top">"Raised to be stoic."</h1>
@@ -42,38 +45,37 @@
 
         </header>
 
-        <div class="introcontainer section1"
+        <div class="content">
+        <div class="introcontainer section1">
         <!-- Intro Section -->
-          <div class="portraitIntro col-8 content">
-          <img class="verticalPortrait" src="img/SOA2019-17.jpg">
+          <div class="portrait1">
+            <img class="verticalPortrait" src="img/SOA2019-17.jpg">
+            <audio id="music" preload="true">
+                <source src="audio/AustinBabrow_V1.mov">
+	          </audio>
+            <div id="audioplayer">
+	             <button id="pButton" class="play"></button>
+                  <div id="timeline">
+  		                <div id="playhead"></div>
+                  </div>
+            <!-- Close Audio Player -->
+            </div>
+          </div>
+            <div class="text">
               <p>It’s 8 p.m. on a Thursday evening and Evan Phillips is working on his motorcycle with his best friend Hunter Lyerla at the storage unit in Athens, Ohio. Many college students are typically on their way out to the lively uptown bars, or maybe an underground house show or a date-night party as Athens is known for its nighttime party scenes. Phillips’ Thursday night is far from that. He is stuck right in the middle of the dark and isolated unit. Phillips chooses to not join the crowd because he does not enjoy the crowded bar scene, he would rather drink beer at home with his roommates or work on his motorcycle.
-              <br>
-              He stands beside his best friend, Lyerla, but knows he cannot open to up him about his personal struggles; he feels trapped. This is not an unfamiliar feeling for Phillips, he has found himself once again unable to confide in someone he considers to be a close friend. He’s aching on the inside, because there is so much he wants to say but he knows he cannot cross that boundary. He’s worried that Lyerla won’t understand him because opening up about insecurities is unorthodox — it’s something that men just don’t do. He feels safer this way because it’s how he’s been conditioned to act his entire life.
-              <br>
-              Lyerla and Phillips go home after working for a few hours on the motorcycles. Lyerla goes to bed and Phillips heads to his own room, but unfortunately it’s one of those nights that Phillips cannot fall asleep. He lies in bed staring at the ceiling, tossing from side to side. His mind is racing with uncontrollable thoughts about his past relationships, school, work, regrets and everything in between. He hasn’t been drinking, but his mind staggers between those thoughts like a drunk wandering around aimlessly. He finally grabs his phone and starts to watch “Hand Tools Rescue,” a YouTube channel about restoring old tools.
-              <br>
-              “You just hear the tap of a hammer or something similar,” Phillips says. “It helps that there is no dialogue so then you don’t have to focus on anything. I think old tools are pretty neat. It’s nice to see old rusty things getting restored, it calms me down.”
-              <br>
-              He watches the channel for a few hours and desperately hopes that it will work, but it’s been three hours and Evan’s mind is still racing and he cannot get himself to shut his eyes and let his mind stop thinking. It’s 12 a.m., and Phillips is still restless, he decides to go on a drive.
-              <br>
-              He gets into his 2002 manual Lexus IS300 and heads toward the Marathon gas station on Stimson Ave. to fill up his gas tank for the drive. He gets on State Route 690 in Athens toward State Route 550 until he arrives in Bartlett. On his way back he takes State Route 555 to U.S. 50 West for Athens. That is tonight’s route.
-              <br>
-              “This car ride is not for the faint of heart,” Evan said.
-              <br>
-              It is not an easy drive by any means; there are many narrow and sharp turns. On one of his previous rides he completely lost control of the steering wheel and almost crashed — the roads are that dangerous. But Phillips loves driving this route because it gives him something else to focus on. He doesn’t even play music because he wants to stay in the moment of just focusing on driving the narrow, dark turns.
-              <br>
-              The narrower the roads, the more excited Phillips becomes. His heart rate goes up, and he can almost hear his heart beating through his chest. Every time he changes gears the smirk on his face broadens. All he wants is to hear the sound of the engine revving up as he shifts gear. There is nowhere else in the world that he would rather be. Just him, the road and the steering wheel.
-              <br>
-              “Driving definitely calms me down,” Phillips says. “I mostly do it because it gives me something else to focus on other than whatever I have going on, especially when I get on the 555 road it’s very twisty, so it forces you to pay attention so it’s a lot easier for me to just focus on that instead of whatever I have going on in my life. It’s a good time to think and process stuff too because you don’t have anything else going on at that moment. It’s just you and the steering wheel.”
-              <br>
-              Phillips is now on the home stretch. He finally makes it to U.S. 50 West, on the way back to Athens. The roads aren’t narrow or sharp anymore, so he uses this time to agonize about mistakes he made in his past life.
-              <br>
-              “I ruminate on stuff that happened in the past just like everybody does, but I tend to focus a little bit more on things that I should probably leave in the past, whether it was relationships or things I did or said,” Phillips says. “That is just always something that is on my mind. Whether it’s good or bad, but typically it’s bad.”
-              <br>
-              It’s a time where he agonizes about things he wishes he could have done differently, things he said in the past that he wishes he didn’t and relationships that should be kept in the past.
-              <br>
-              Phillips finally makes it back home at a little after 2 a.m. He tries to be very quiet because his roommates are all asleep. He tiptoes back to his room and he’s finally at a little more ease. Exhausted, he shuts his eyes knowing he has to be up in four and a half hours to get ready for his 8.30 a.m. guitar class.
-        </p>
+              <p>He stands beside his best friend, Lyerla, but knows he cannot open to up him about his personal struggles; he feels trapped. This is not an unfamiliar feeling for Phillips, he has found himself once again unable to confide in someone he considers to be a close friend. He’s aching on the inside, because there is so much he wants to say but he knows he cannot cross that boundary. He’s worried that Lyerla won’t understand him because opening up about insecurities is unorthodox — it’s something that men just don’t do. He feels safer this way because it’s how he’s been conditioned to act his entire life.</p>
+              <p>Lyerla and Phillips go home after working for a few hours on the motorcycles. Lyerla goes to bed and Phillips heads to his own room, but unfortunately it’s one of those nights that Phillips cannot fall asleep. He lies in bed staring at the ceiling, tossing from side to side. His mind is racing with uncontrollable thoughts about his past relationships, school, work, regrets and everything in between. He hasn’t been drinking, but his mind staggers between those thoughts like a drunk wandering around aimlessly. He finally grabs his phone and starts to watch “Hand Tools Rescue,” a YouTube channel about restoring old tools.</p>
+              <p>“You just hear the tap of a hammer or something similar,” Phillips says. “It helps that there is no dialogue so then you don’t have to focus on anything. I think old tools are pretty neat. It’s nice to see old rusty things getting restored, it calms me down.”</p>
+              <p>He watches the channel for a few hours and desperately hopes that it will work, but it’s been three hours and Evan’s mind is still racing and he cannot get himself to shut his eyes and let his mind stop thinking. It’s 12 a.m., and Phillips is still restless, he decides to go on a drive.</p>
+              <p>He gets into his 2002 manual Lexus IS300 and heads toward the Marathon gas station on Stimson Ave. to fill up his gas tank for the drive. He gets on State Route 690 in Athens toward State Route 550 until he arrives in Bartlett. On his way back he takes State Route 555 to U.S. 50 West for Athens. That is tonight’s route.</p>
+              <p>“This car ride is not for the faint of heart,” Evan said.</p>
+              <p>It is not an easy drive by any means; there are many narrow and sharp turns. On one of his previous rides he completely lost control of the steering wheel and almost crashed — the roads are that dangerous. But Phillips loves driving this route because it gives him something else to focus on. He doesn’t even play music because he wants to stay in the moment of just focusing on driving the narrow, dark turns.</p>
+              <p>The narrower the roads, the more excited Phillips becomes. His heart rate goes up, and he can almost hear his heart beating through his chest. Every time he changes gears the smirk on his face broadens. All he wants is to hear the sound of the engine revving up as he shifts gear. There is nowhere else in the world that he would rather be. Just him, the road and the steering wheel.</p>
+              <p>“Driving definitely calms me down,” Phillips says. “I mostly do it because it gives me something else to focus on other than whatever I have going on, especially when I get on the 555 road it’s very twisty, so it forces you to pay attention so it’s a lot easier for me to just focus on that instead of whatever I have going on in my life. It’s a good time to think and process stuff too because you don’t have anything else going on at that moment. It’s just you and the steering wheel.”</p>
+              <p>Phillips is now on the home stretch. He finally makes it to U.S. 50 West, on the way back to Athens. The roads aren’t narrow or sharp anymore, so he uses this time to agonize about mistakes he made in his past life.</p>
+              <p>“I ruminate on stuff that happened in the past just like everybody does, but I tend to focus a little bit more on things that I should probably leave in the past, whether it was relationships or things I did or said,” Phillips says. “That is just always something that is on my mind. Whether it’s good or bad, but typically it’s bad.”</p>
+              <p>It’s a time where he agonizes about things he wishes he could have done differently, things he said in the past that he wishes he didn’t and relationships that should be kept in the past.</p>
+              <p>Phillips finally makes it back home at a little after 2 a.m. He tries to be very quiet because his roommates are all asleep. He tiptoes back to his room and he’s finally at a little more ease. Exhausted, he shuts his eyes knowing he has to be up in four and a half hours to get ready for his 8.30 a.m. guitar class.</p>
               <!-- Opening Quote, Who is Evan? [Pull Quotes, Photos and Audio] -->
           </div>
         </div>
@@ -86,6 +88,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur a libero in mollis. In laoreet vehicula erat nec mollis. Donec efficitur nunc felis, nec vehicula est feugiat quis. Cras scelerisque convallis neque, ac mattis metus vestibulum in. Nullam tempus libero ac accumsan posuere. Quisque posuere nunc eget lectus ultricies pulvinar. Vestibulum cursus consectetur nibh, quis facilisis erat placerat sit amet. Maecenas lacus ipsum, lacinia nec nisi tincidunt, malesuada commodo massa. Nulla sodales semper ex, id fermentum diam. Nulla congue, quam et ultricies tempus, purus mi varius ante, vitae vehicula velit urna non ex.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur a libero in mollis. In laoreet vehicula erat nec mollis. Donec efficitur nunc felis, nec vehicula est feugiat quis. Cras scelerisque convallis neque, ac mattis metus vestibulum in. Nullam tempus libero ac accumsan posuere. Quisque posuere nunc eget lectus ultricies pulvinar. Vestibulum cursus consectetur nibh, quis facilisis erat placerat sit amet. Maecenas lacus ipsum, lacinia nec nisi tincidunt, malesuada commodo massa. Nulla sodales semper ex, id fermentum diam. Nulla congue, quam et ultricies tempus, purus mi varius ante, vitae vehicula velit urna non ex.</p>
               <!-- Video games, Working on bikes, Auto club, Sports, Girlfriend [Text and Photos] -->
+        <!-- Close section 3 -->
         </div>
 
         <div class="problemcontainer section3">
@@ -96,6 +99,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur a libero in mollis. In laoreet vehicula erat nec mollis. Donec efficitur nunc felis, nec vehicula est feugiat quis. Cras scelerisque convallis neque, ac mattis metus vestibulum in. Nullam tempus libero ac accumsan posuere. Quisque posuere nunc eget lectus ultricies pulvinar. Vestibulum cursus consectetur nibh, quis facilisis erat placerat sit amet. Maecenas lacus ipsum, lacinia nec nisi tincidunt, malesuada commodo massa. Nulla sodales semper ex, id fermentum diam. Nulla congue, quam et ultricies tempus, purus mi varius ante, vitae vehicula velit urna non ex.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur a libero in mollis. In laoreet vehicula erat nec mollis. Donec efficitur nunc felis, nec vehicula est feugiat quis. Cras scelerisque convallis neque, ac mattis metus vestibulum in. Nullam tempus libero ac accumsan posuere. Quisque posuere nunc eget lectus ultricies pulvinar. Vestibulum cursus consectetur nibh, quis facilisis erat placerat sit amet. Maecenas lacus ipsum, lacinia nec nisi tincidunt, malesuada commodo massa. Nulla sodales semper ex, id fermentum diam. Nulla congue, quam et ultricies tempus, purus mi varius ante, vitae vehicula velit urna non ex.</p>
               <!-- Insomnia, Anxiety, [Audio and Video] -->
+        <!-- Close section 3 -->
         </div>
 
         <div class="contextcontainer section4">
@@ -106,6 +110,7 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur a libero in mollis. In laoreet vehicula erat nec mollis. Donec efficitur nunc felis, nec vehicula est feugiat quis. Cras scelerisque convallis neque, ac mattis metus vestibulum in. Nullam tempus libero ac accumsan posuere. Quisque posuere nunc eget lectus ultricies pulvinar. Vestibulum cursus consectetur nibh, quis facilisis erat placerat sit amet. Maecenas lacus ipsum, lacinia nec nisi tincidunt, malesuada commodo massa. Nulla sodales semper ex, id fermentum diam. Nulla congue, quam et ultricies tempus, purus mi varius ante, vitae vehicula velit urna non ex.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur a libero in mollis. In laoreet vehicula erat nec mollis. Donec efficitur nunc felis, nec vehicula est feugiat quis. Cras scelerisque convallis neque, ac mattis metus vestibulum in. Nullam tempus libero ac accumsan posuere. Quisque posuere nunc eget lectus ultricies pulvinar. Vestibulum cursus consectetur nibh, quis facilisis erat placerat sit amet. Maecenas lacus ipsum, lacinia nec nisi tincidunt, malesuada commodo massa. Nulla sodales semper ex, id fermentum diam. Nulla congue, quam et ultricies tempus, purus mi varius ante, vitae vehicula velit urna non ex.</p>
               <!-- Expert Info, Portaits, Audio, Interactive Graph [portraits and audio]-->
+        <!-- Close section 4 -->
         </div>
 
         <div class="conflictcontainer section5">
@@ -126,11 +131,13 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur a libero in mollis. In laoreet vehicula erat nec mollis. Donec efficitur nunc felis, nec vehicula est feugiat quis. Cras scelerisque convallis neque, ac mattis metus vestibulum in. Nullam tempus libero ac accumsan posuere. Quisque posuere nunc eget lectus ultricies pulvinar. Vestibulum cursus consectetur nibh, quis facilisis erat placerat sit amet. Maecenas lacus ipsum, lacinia nec nisi tincidunt, malesuada commodo massa. Nulla sodales semper ex, id fermentum diam. Nulla congue, quam et ultricies tempus, purus mi varius ante, vitae vehicula velit urna non ex.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur a libero in mollis. In laoreet vehicula erat nec mollis. Donec efficitur nunc felis, nec vehicula est feugiat quis. Cras scelerisque convallis neque, ac mattis metus vestibulum in. Nullam tempus libero ac accumsan posuere. Quisque posuere nunc eget lectus ultricies pulvinar. Vestibulum cursus consectetur nibh, quis facilisis erat placerat sit amet. Maecenas lacus ipsum, lacinia nec nisi tincidunt, malesuada commodo massa. Nulla sodales semper ex, id fermentum diam. Nulla congue, quam et ultricies tempus, purus mi varius ante, vitae vehicula velit urna non ex.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur a libero in mollis. In laoreet vehicula erat nec mollis. Donec efficitur nunc felis, nec vehicula est feugiat quis. Cras scelerisque convallis neque, ac mattis metus vestibulum in. Nullam tempus libero ac accumsan posuere. Quisque posuere nunc eget lectus ultricies pulvinar. Vestibulum cursus consectetur nibh, quis facilisis erat placerat sit amet. Maecenas lacus ipsum, lacinia nec nisi tincidunt, malesuada commodo massa. Nulla sodales semper ex, id fermentum diam. Nulla congue, quam et ultricies tempus, purus mi varius ante, vitae vehicula velit urna non ex.</p>
-              <!-- Balance -->
+          <!-- Close change -->
+          </div>
+        <!-- Close content div -->
         </div>
 
         <footer class="fixed_footer">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ducimus nemo quo totam neque quis soluta nisi obcaecati aliquam saepe dicta adipisci blanditiis quaerat earum laboriosam accusamus nesciunt! Saepe ex maxime enim asperiores nisi. Obcaecati nostrum nobis laudantium aliquam commodi veniam magni similique ullam quis pariatur voluptatem harum id error.</p>
+              <p class="footercontent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis ducimus nemo quo totam neque quis soluta nisi obcaecati aliquam saepe dicta adipisci blanditiis quaerat earum laboriosam accusamus nesciunt! Saepe ex maxime enim asperiores nisi. Obcaecati nostrum nobis laudantium aliquam commodi veniam magni similique ullam quis pariatur voluptatem harum id error.</p>
         </footer>
 
         <!-- JS Files -->
@@ -150,8 +157,9 @@
             <!-- Personal -->
             <script type="text/text/javascript" src="js/script.js"></script>
 
-
-
+    <!-- Close Wrapper-parallax div -->
+    </div>
+    <!-- Close body tag -->
     </body>
 
 </html>
