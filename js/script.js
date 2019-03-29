@@ -1,3 +1,4 @@
+console.log("Hello");
 // Audio player //
 var music = document.getElementById('music'); // id for audio element
 var duration = music.duration; // Duration of audio clip, calculated here for embedding purposes
@@ -104,3 +105,26 @@ music.addEventListener("canplaythrough", function() {
 function getPosition(el) {
     return el.getBoundingClientRect().left;
 }
+
+
+// Animate Pictures
+$(document).ready(function() {
+  // Check if element is scrolled into view
+  function isScrolledIntoView(elem) {
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+
+    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+  }
+  // If element is scrolled into view, fade it in
+  $(window).scroll(function() {
+    $('.scroll-animations .animated').each(function() {
+      if (isScrolledIntoView(this) === true) {
+        $(this).addClass('fadeInLeft');
+      }
+    });
+  });
+});
