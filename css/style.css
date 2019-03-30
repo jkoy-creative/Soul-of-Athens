@@ -26,7 +26,13 @@ p {
   padding: 0 40px;
   width: 100%;
   text-indent: 15px;
+}
 
+.footercontent{
+  text-indent: 0px;
+  column-count: 2;
+  margin: 75px;
+  color:#fff;
 }
 
 .section1, .section2, .section3, .section4, .section5, .section6 {
@@ -170,12 +176,6 @@ footer {
     display: flex;
 }
 
-
-.footercontent{
-  column-count: 2;
-  margin: 75px;
-
-}
 
 /* Audio Player */
 
