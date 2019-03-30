@@ -312,3 +312,27 @@ footer {
   color: white;
   background: rgba(0, 0, 0,1)
 }
+
+/* Full Screen Image */
+.fullPhoto {
+  display: block;
+  position: relative;
+  background-image: url("../Soul-of-Athens/img/SOA2019-150.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.animated{
+  opacity:0;
+}
+
+.fadeInLeft{
+  opacity: 1;
+}

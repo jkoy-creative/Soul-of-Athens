@@ -107,11 +107,7 @@ function getPosition(el) {
 }
 
 
-
-
-
-
-// Play video //
+// Play video
 
 // Get the video
 var video = document.getElementById("myVideo");
