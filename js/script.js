@@ -107,6 +107,33 @@ function getPosition(el) {
 }
 
 
+
+
+
+
+// Play video //
+
+// Get the video
+var video = document.getElementById("myVideo");
+
+// Get the button
+var btn = document.getElementById("pButtonVid");
+
+// Pause and play the video, and change the button text
+function playVid() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+
+
+
+
+
 // Animate Pictures
 $(document).ready(function() {
   // Check if element is scrolled into view
