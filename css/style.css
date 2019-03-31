@@ -64,7 +64,7 @@ p {
 
 .videosection{
   display: block;
-  position:absolute;
+  position:relative;
   margin: 60px 150px;
 }
 
