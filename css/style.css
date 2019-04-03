@@ -12,10 +12,6 @@ body {
   flex-direction: row;
 }
 
-.content {
-  padding-bottom:50px;
-}
-
 img {
   width: 100%;
 }
@@ -60,6 +56,10 @@ p {
   padding:75px;
   color: #FFFFFF;
   height: 600px;
+}
+
+.introcontainer{
+  background-color: blue;
 }
 
 .videosection{
@@ -168,6 +168,9 @@ h5 {
   width: 100%;
   height: 100%;
   justify-content: center;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
 }
 
 .content{
@@ -175,8 +178,13 @@ h5 {
   z-index: 1;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  background: white;
+  background: yellow;
   min-height: 500px;
+  padding-bottom:50px;
+}
+
+.verticalPortrait{
+  background-color: aqua;
 }
 
 .wrapper-parallax {
@@ -208,11 +216,11 @@ h5 {
   flex-direction: row;
 }
 
-/* image adjustments */
+/* image adjustments
 .handpicture {
   height:20%;
   height:20%;
-}
+} */
 
 /* Footer */
 
