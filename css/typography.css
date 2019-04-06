@@ -1,0 +1,9 @@
+.bodyText{
+  width:100%;
+  margin-left: 50px;
+  color: #3d3d3d;
+  font-size: 22px;
+  letter-spacing: .02rem;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: lighter;
+}
