@@ -117,8 +117,6 @@ header {
 .content{
   position: relative;
   z-index: 1;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
   background: white;
   min-height: 500px;
   padding-bottom:50px;
