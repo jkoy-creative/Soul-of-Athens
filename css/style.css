@@ -1,5 +1,11 @@
 @import "typography.css";
 @import "videoSections.css";
+@import "mediaqueries.css";
+
+:root{
+  --main-copper-base: #c78b44;
+  --main-blue-base: #6C8DA3;
+}
 
 body {
   max-width: 100%;
@@ -34,6 +40,8 @@ img {
 .section2, .section3, .section4, .section5, .section6, .section7, .endSection {
   display: block;
   margin: 0px 150px;
+  display: flex;
+  flex-direction: row;
 }
 
 .infographicSection{
@@ -41,6 +49,11 @@ img {
   opacity: 0.6;
   height: 650px;
   display: block;
+  margin: 150px 0px;
+}
+
+.endSection{
+  margin: 150px 0px;
 }
 
 .introHeader {
@@ -83,53 +96,7 @@ header {
   z-index: 2;
 }
 
-@-webkit-keyframes moveDown {
-	0% { -webkit-transform: translateY(-40px) }
-}
 
-h1 {
-  font-family: "Nunito Sans", "Lato", sans-serif;
-  font-size: 60px;
-  margin-top: 15px;
-  letter-spacing: .2rem;
-	text-transform:uppercase;
-  display:block;
-  font-weight: lighter;
-}
-
-h2 {
-  font-family: "Cormorant Garamond", "Lato", sans-serif;
-  font-size: 25px;
-  margin: 0;
-  font-weight: lighter;
-}
-
-h3 {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 19px;
-  line-height: 1.8rem;
-  display: block;
-  width: 30%;
-  font-weight: lighter;
-  display: flex;
-}
-
-/* Headphones Disclaimer */
-h4 {
-  color:#c78b44;
-  font-family: "Cormorant Garamond", "Lato", sans-serif;
-  font-size: 20px;
-  font-weight: 200;
-  letter-spacing: .1rem;
-}
-
-h5 {
-  color:#c78b44;
-  font-family: "Nunito Sans", "Lato", sans-serif;
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: .2rem;
-}
 
 .bodyText{
   width:100%;
@@ -165,31 +132,6 @@ h5 {
 
 .wrapper-parallax {
     margin-bottom: 300px;
-}
-
-.section1{
-  display: flex;
-  flex-direction: row;
-}
-
-.section2{
-  display: flex;
-  flex-direction: row;
-}
-
-.section3{
-  display: flex;
-  flex-direction: row;
-}
-
-.section4{
-  display: flex;
-  flex-direction: row;
-}
-
-.section5{
-  display: flex;
-  flex-direction: row;
 }
 
 /* image adjustments
