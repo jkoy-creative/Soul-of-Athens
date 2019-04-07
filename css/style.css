@@ -228,3 +228,34 @@ footer {
   margin-top: 25px;
   /* position: fixed; */
 }
+
+
+/* Mobile Dev ___________________________________________________________ */
+
+/* Desktop and Above, restrict line-length */
+@media (min-width: 1280px) {
+  .content {
+    max-width: 1280px;
+  }
+}
+
+/* Adjust Margins */
+@media (min-width: 481) and (max-width: 700px) {
+  .section2, .section3, .section4, .section5, .section6, .section7, .endSection {
+    margin: 0px 75px;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 720px) {
+  imageSection{
+    display: none;
+  }
+  inTextImages{
+    display: block;
+    flex-direction: row;
+  }
+  bodyText{
+    width: 80%;
+  }
+}
