@@ -7,3 +7,21 @@
   font-family: "Cormorant Garamond", serif;
   font-weight: lighter;
 }
+
+p {
+  margin-bottom: 7px;
+  line-height: 1.4;
+  padding: 0 40px;
+  width: 100%;
+  text-indent: 15px;
+}
+
+.pullQuote{
+  font-family: "Nunito Sans", serif;
+  font-size: 40px;
+  color: #6C8DA3;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+}
