@@ -24,6 +24,18 @@ p {
   line-height: 1;
   text-transform: uppercase;
   letter-spacing: .2rem;
+  max-width: 1000px;
+}
+
+.pullQuotePic{
+  font-family: "Nunito Sans", serif;
+  font-size: 40px;
+  color: #FFFFFF;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  width:80%;
 }
 
 h1 {
@@ -32,7 +44,9 @@ h1 {
   margin-top: 15px;
   letter-spacing: .2rem;
 	text-transform:uppercase;
-  display:block;
+  display:flex;
+  width: 100%;
+  flex-direction: row;
   font-weight: lighter;
   color: #FFFFFF;
 }
@@ -61,6 +75,8 @@ h4 {
   font-size: 20px;
   font-weight: 200;
   letter-spacing: .1rem;
+  display: flex;
+  flex-direction: row;
 }
 
 h5 {

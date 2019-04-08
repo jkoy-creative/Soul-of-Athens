@@ -1,0 +1,65 @@
+/* Full Screen Images ___________________________________________________________ */
+.fullPhoto {
+  display: flex;
+  position: relative;
+  background-image: url("../img/desktopSelects/route555sign.jpg");
+
+  /* Full height */
+  height: 800px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 20;
+}
+
+.fullPhoto1 {
+  display: flex;
+  position: relative;
+  background-image: url("../img/desktopSelects/barscene.jpg");
+
+  /* Full height */
+  height: 400px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 20;
+}
+
+
+.fullPhoto2 {
+  display: flex;
+  position: relative;
+  background-image: url("../img/desktopSelects/SOA_halfFacePortrait.jpg");
+
+  /* Full height */
+  height: 800px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 20;
+}
+
+.fullPhotoQuote{
+  display: flex;
+  position: relative;
+  background-image: url("../img/desktopSelects/SOA_doubleExposure.jpg");
+  /* Full height */
+  height: 800px;
+  overflow:hidden;
+  background-color: #6C8DA3;
+  background-blend-mode: overlay;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

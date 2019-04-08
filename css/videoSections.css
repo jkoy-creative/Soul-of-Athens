@@ -1,11 +1,11 @@
 .vimeoEmbedSection, .vimeoEmbedSection2 {
   padding:56.25% 0 0 0;
   position:relative;
-  margin: 0px 100px;
+  width:100%;
 }
 
 .videosection{
-  display: block;
+  display: flex;
   position:relative;
   margin: 60px 150px;
 }
