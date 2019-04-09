@@ -1,19 +1,16 @@
+p {
+  line-height: 1.2;
+  text-indent: 15px;
+}
+
 .bodyText{
   width:100%;
   margin-left: 50px;
   color: #3d3d3d;
   font-size: 22px;
   letter-spacing: .02rem;
-  font-family: "Cormorant Garamond", serif;
+  font-family: 'Lora', serif;
   font-weight: lighter;
-}
-
-p {
-  margin-bottom: 7px;
-  line-height: 1.4;
-  padding: 0 40px;
-  width: 100%;
-  text-indent: 15px;
 }
 
 .pullQuote{
@@ -50,14 +47,14 @@ h1 {
 }
 
 h2 {
-  font-family: "Cormorant Garamond", "Lato", sans-serif;
+  font-family: 'Lora', serif;
   font-size: 25px;
   margin: 0;
   font-weight: lighter;
 }
 
 h3 {
-  font-family: "Cormorant Garamond", serif;
+  font-family: 'Lora', serif;
   font-size: 19px;
   line-height: 1.8rem;
   display: block;
@@ -68,7 +65,7 @@ h3 {
 /* Headphones Disclaimer */
 h4 {
   color:#c78b44;
-  font-family: "Cormorant Garamond", "Lato", sans-serif;
+  font-family: 'Lora', serif;
   font-size: 20px;
   font-weight: 200;
   letter-spacing: .1rem;
