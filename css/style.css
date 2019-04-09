@@ -315,13 +315,11 @@ footer {
   }
 
   h1{
-    position:fixed;
     display: flex;
     flex-direction: row;
   }
 
   .subhead{
-    position:fixed;
     display: flex;
     flex-direction: row;
   }
