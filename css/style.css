@@ -2,6 +2,7 @@
 @import "videoSections.css";
 @import "fullScreenPhotos.css";
 
+
 :root{
   --main-copper-base: #c78b44;
   --main-blue-base: #6C8DA3;
@@ -36,19 +37,19 @@ img {
   font-size: 15px;
   font-weight: lighter;
   text-transform: uppercase;
+  /* Do I apply flex? */
 }
 
 .bodySection, .endSection {
   display: flex;
   flex-direction: row;
   margin: 0px 150px;
-  display: flex;
-  flex-direction: row;
   padding-bottom: 75px;
   padding-top: 75px;
 }
 
 .infographicSection{
+  flex-direction: row;
   background-color: #6C8DA3;
   opacity: 0.6;
   height: 650px;
@@ -105,7 +106,7 @@ header {
 
 
 .bodyText{
-  width:100%;
+  width:50%;
   margin-left: 50px;
 }
 
@@ -129,6 +130,7 @@ header {
 }*/
 
 .content{
+  flex-direction: column;
   position: relative;
   z-index: 1;
   background: white;
@@ -259,7 +261,8 @@ footer {
 }
 
 .imageSection{
-  width: 55%;
+  flex-direction: column;
+  width: 50%;
   margin-top: 25px;
   /* position: fixed; */
 }
@@ -285,10 +288,8 @@ footer {
 
 
 /* Desktop and Above, restrict line-length */
-@media (min-width: 1280px) {
-  .bodySection, .endSection {
-    max-width: 1280px;
-  }
+@media (min-width: 780px) {
+
   .inTextImages{
     display: none;
   }
@@ -297,32 +298,9 @@ footer {
   }
 }
 
-/* Adjust Margins */
-@media (min-width: 481) and (max-width: 760px) {
+@media (min-width: 1280px) {
   .bodySection, .endSection {
-    margin: 0px 75px;
-  }
-  .inTextImages{
-    display: flex;
-  }
-  .vimeoEmbedSection, .vimeoEmbedSection2 {
-    margin: 0px 10px;
-  }
-  .hideInDesktop{
-    display:flex;
-  }
-  .quote{
-    display: none;
-  }
-  .fullPhotoQuote{
-    display: none;
-  }
-  .imageSection{
-    display: none;
-  }
-
-  .footercontent{
-    column-count: 1;
+    max-width: 1280px;
   }
 }
 
@@ -349,12 +327,12 @@ footer {
   }
 
   .bodyText{
-    margin: 10px;
     flex-direction: column;
+    margin: 10px;
     width: 100%;
   }
 
-  .imageSection{
+  .imageSection, .quote, .fullPhotoQuote {
     display: none;
   }
 
@@ -372,13 +350,6 @@ footer {
     display: flex;
   }
 
-  .quote{
-    display: none;
-  }
-
-  .fullPhotoQuote{
-    display: none;
-  }
   .footercontent{
     column-count: 1;
   }
