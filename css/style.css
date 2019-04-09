@@ -290,7 +290,7 @@ footer {
 
 
 /* Desktop and Above, restrict line-length */
-@media (min-width: 780px) {
+@media only screen and (min-width: 780px) {
   .inTextImages{
     display: none;
   }
@@ -303,7 +303,7 @@ footer {
 }
 
 /* Mobile screens */
-@media (max-width: 760px) {
+@media only screen and (max-width: 760px) {
   .bodySection, .endSection {
     margin: 0px 25px;
   }
@@ -321,7 +321,6 @@ footer {
     display: flex;
     flex-direction: row;
     width:80%;
-    bottom: 20;
   }
 
   .bodyText{
