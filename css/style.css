@@ -327,6 +327,7 @@ footer {
     flex-direction: column;
     margin: 10px;
     width: 100%;
+      font-size: 400px;
   }
 
   .imageSection, .quote, .fullPhotoQuote {
