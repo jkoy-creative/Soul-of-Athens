@@ -321,6 +321,7 @@ footer {
     display: flex;
     flex-direction: row;
     width:80%;
+    bottom: 20;
   }
 
   .bodyText{
