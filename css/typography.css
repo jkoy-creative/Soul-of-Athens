@@ -9,8 +9,8 @@ p {
   color: #3d3d3d;
   font-size: 22px;
   letter-spacing: .02rem;
-  font-family: 'Lora', serif;
-  font-weight: lighter;
+  font-family: 'EB Garamond', serif;
+  font-weight: 100;
 }
 
 .pullQuote{
@@ -47,14 +47,14 @@ h1 {
 }
 
 h2 {
-  font-family: 'Lora', serif;
+  font-family: 'EB Garamond', serif;
   font-size: 25px;
   margin: 0;
   font-weight: lighter;
 }
 
 h3 {
-  font-family: 'Lora', serif;
+  font-family: 'EB Garamond', serif;
   font-size: 19px;
   line-height: 1.8rem;
   display: block;
@@ -65,7 +65,7 @@ h3 {
 /* Headphones Disclaimer */
 h4 {
   color:#c78b44;
-  font-family: 'Lora', serif;
+  font-family: 'EB Garamond', serif;
   font-size: 20px;
   font-weight: 200;
   letter-spacing: .1rem;
