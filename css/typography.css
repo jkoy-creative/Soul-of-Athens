@@ -15,12 +15,13 @@ p {
 .pullQuote{
   font-family: "Nunito Sans", serif;
   font-size: 40px;
-  color: #6C8DA3;
+  color: #c78b44;
   font-weight: bold;
   line-height: 1;
   text-transform: uppercase;
   letter-spacing: .2rem;
   max-width: 1000px;
+  margin-bottom: 100px;
 }
 
 .pullQuotePic{
@@ -63,7 +64,7 @@ h3 {
 
 /* Headphones Disclaimer */
 h4 {
-  color:#c78b44;
+  color:#6C8DA3;
   font-family: 'EB Garamond', serif;
   font-size: 20px;
   font-weight: 200;
