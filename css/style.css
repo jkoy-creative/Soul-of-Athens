@@ -44,17 +44,22 @@ img {
 .bodySection, .endSection {
   display: flex;
   flex-direction: row;
-  margin: 0px 150px;
+  padding: 100px 100px 100px 100px;
 
 
 }
 
-.bottomMargin {
-  margin: 0 0 100px 0;
+.introPadding{
+  margin-top: 0px;
+  padding-top: 100px;
 }
 
-.topMargin{
-  margin: 150px 0 0 0;
+.removeBottomPadding {
+  padding-bottom: 0px;
+}
+
+.removeTopPadding {
+  padding-top: 0px;
 }
 
 .infographicSection{
@@ -63,7 +68,6 @@ img {
   opacity: 0.6;
   height: 650px;
   display: flex;
-  margin: 150px 0px;
 }
 
 .endSection{
@@ -257,12 +261,11 @@ footer {
 }
 
 .photoBox{
-  flex:25%;
+  flex:50%;
   width: 100%;
   padding: 0;
   margin: 0;
   overflow: hidden;
-  background-color: yellow;
 }
 
 
@@ -362,10 +365,6 @@ footer {
 
   .hideInDesktop{
     display: flex;
-  }
-
-  .photoBox{
-    flex:50%;
   }
 
   .footercontent{
