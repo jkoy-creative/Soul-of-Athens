@@ -279,6 +279,6 @@ $(function() {
                 })
                 .setPin(".pinned-cont", {pushFollowers: false})
                 .setTween(fadeInBg)
-                .addIndicators()
+                //.addIndicators()
                 .addTo(controller);
 });

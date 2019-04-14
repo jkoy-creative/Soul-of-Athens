@@ -86,3 +86,10 @@ h5 {
   text-transform: uppercase;
   letter-spacing: .2rem;
 }
+
+.bottomWarning{
+  color: #c78b44;
+  font-family: "Nunito Sans", "Lato", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+}

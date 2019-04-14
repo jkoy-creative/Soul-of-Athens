@@ -119,7 +119,14 @@ header {
 }
 
 .bodyText{
+  flex-direction: column;
   width:50%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.CenterText{
+  width:100%;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -171,7 +178,6 @@ header {
 
 /* ----------------- ROW 1 ---------------- */
 #row1 {
-    height: 5px;
     width: 100%;
 }
 
@@ -196,7 +202,7 @@ header {
     height: 100vh;
     width: 100vw;
     position: relative;
-    align-content: : center;
+    align-content: center;
 }
 
 
@@ -209,7 +215,7 @@ footer {
     background: #111;
     height: 300px;
     display: flex;
-    border-top: 5px solid #6C8DA3;
+    border-top: 5px solid #c78b44;
 }
 
 
@@ -381,10 +387,18 @@ footer {
   }
 
   .bodyText{
-    flex-direction: column;
-    margin: 10px;
-    width: 100%;
+    flex-direction: row;
+    width:100%;
+    margin-left: 15px;
+    margin-right: 15px;
   }
+
+  .bodySection  {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 15px 15px 15px;
+  }
+
 
   .imageSection, .quote, .fullPhotoQuote {
     display: none;
