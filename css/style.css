@@ -8,6 +8,10 @@
   --main-blue-base: #6C8DA3;
 }
 
+.background{
+  background-color: green;
+}
+
 body {
   max-width: 100%;
   background-color: #ffffff;
@@ -29,9 +33,9 @@ img {
 }
 
 .footercontent{
+  flex-direction: row;
   font-family: "Nunito Sans", "Lato", sans-serif;
   text-indent: 0px;
-  column-count: 2;
   margin: 75px;
   color: gray;
   line-height: 2;
@@ -106,8 +110,9 @@ header {
   position:fixed;
   height:7px;
   background-color: rgba(150, 150, 150, 0.0);
-  width:100%;
+  width:100vw;
   z-index: 2;
+  overflow: hidden;
 }
 
 .progressBar {
@@ -129,6 +134,7 @@ header {
   width:100%;
   margin-left: 50px;
   margin-right: 50px;
+  display: flex;
 }
 
 .overlapText{
@@ -138,7 +144,9 @@ header {
   display: flex;
   margin: 50px 0px;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
+  z-index: 10;
 }
 
 .subhead{
@@ -174,11 +182,20 @@ header {
 .vertical-center {
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+
+.vertical-center img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 /* ----------------- ROW 1 ---------------- */
 #row1 {
     width: 100%;
+    background-color:darkgoldenrod;
+    height: 100vh;
 }
 
 #row1bg {
@@ -191,7 +208,6 @@ header {
 
 /* ---------- ROW 2 ----*/
 #row2 {
-    background-color:darkgoldenrod;
     height: 100vh;
     width: 100vw;
 }
@@ -199,7 +215,7 @@ header {
 
 /* --------- ROW 3 --------- */
 #row3 {
-    height: 100vh;
+    height: 75vh;
     width: 100vw;
     position: relative;
     align-content: center;
@@ -213,7 +229,6 @@ footer {
     width: 100%;
     bottom: 0;
     background: #111;
-    height: 300px;
     display: flex;
     border-top: 5px solid #c78b44;
 }
@@ -222,9 +237,8 @@ footer {
 /* Audio Player ___________________________________________________________ */
 
 #audioplayer{
-	width: 480px;
+	width: 80%;
 	height: 60px;
-	margin: 50px;
   display: flex;
   flex-direction: row;
   position: relative;
@@ -368,7 +382,7 @@ footer {
 /* Mobile screens */
 @media only screen and (max-width: 760px) {
   .bodySection, .centeredContent {
-    margin: 0px 25px;
+    padding: 0px 25px;
   }
 
   .introHeader{
@@ -420,6 +434,6 @@ footer {
   }
 
   .footercontent{
-    column-count: 1;
+    flex-direction: column;
   }
 }

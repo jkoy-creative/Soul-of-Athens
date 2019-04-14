@@ -43,7 +43,7 @@
       <header>
         <!-- Photo Evan Here -->
         <div class="introHeader">
-          <h1 id="top">'Raised to be stoic'</h1>
+          <h1 id="top" class="background">'Raised to be stoic'</h1>
           <div class="subhead">
             <h4>Evan reflects on his struggle with mental health</h4>
             <!-- <div class="disclaimer">
@@ -169,7 +169,7 @@
 
     <!-- Video Section -->
     <div class="vimeoEmbedSection">
-        <iframe src="https://player.vimeo.com/video/327952088?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/327952088?byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         <script src="https://player.vimeo.com/api/player.js"></script>
     </div>
 
@@ -406,17 +406,17 @@
 
       <!-- Video Section -->
       <div class="vimeoEmbedSection2">
-              <iframe src="https://player.vimeo.com/video/327952459?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              <iframe src="https://player.vimeo.com/video/327952459?byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
               <script src="https://player.vimeo.com/api/player.js"></script>
       </div>
 
 
 
       <!-- SECTION -->
-      <div row id="row1" class="bodySection vertical-center">
+      <div class="bodySection removeBottomPadding">
         <!-- Section Images -->
         <div class="imageSection scroll-animations">
-          <div class="swap25 animated">
+          <div class="swap animated">
               <img class="polaroid" src="img/desktopSelects/evanPoloroidCar.jpeg">
           </div>
         </div>
@@ -440,41 +440,36 @@
       </div>
       <!-- Close Section -->
 
-      <div row id="row2" class="vertical-center trigger pinned-cont">
+      <div row id="row1" class="vertical-center trigger pinned-cont">
       <img src="img/desktopSelects/drivedetail4.jpg">
-      <p class="text-center">Second frame</p>
+      </div><!-- close row2-->
+
+      <div row id="row2" class="vertical-center">
+        <div class="overlapText">
+          <div class="centeredContent">
+             <p>There is a silver lining in Evan’s story.</p>
+
+             <p>He understands the magnitude of struggling with mental health issues; how it affects every aspect of a person’s life. He is a better son, friend and brother because of his struggles. If society continues to allow men to commit to masculinity ideology, a lot of men will feel trapped, just as Evan felt when he almost took his life. Humans are fallible. Men allowing themselves to be vulnerable does not make them less of a man. It makes them human.</p>
+
+             <p>Evan’s story sheds a light on that. Evan’s story is a wake-up call.</p>
+
+          <!-- End Quote about being a father -->
+          <audio id="music" preload="true">
+                <source src="../Soul-of-Athens/audio/Evan_FutureSon.mp3">
+          </audio>
+          <div id="audioplayer">
+                <button id="pButton" class="play"></button>
+                    <div id="timeline">
+                        <div id="playhead"></div>
+                    </div>
+          </div>
+          </div>
+          <!-- Close Audio Player -->
+        </div> <!-- close send section-->
       </div><!-- close row2-->
 
       <div row id="row3" class="vertical-center">
-      <p class="text-center">Third frame</p>
       </div><!-- close row3-->
-
-    <!-- SECTION -->
-    <div row id="row3" class="vertical-center">
-    <div class="overlapText">
-      <div class="centeredContent">
-         <p>There is a silver lining in Evan’s story.</p>
-
-         <p>He understands the magnitude of struggling with mental health issues; how it affects every aspect of a person’s life. He is a better son, friend and brother because of his struggles. If society continues to allow men to commit to masculinity ideology, a lot of men will feel trapped, just as Evan felt when he almost took his life. Humans are fallible. Men allowing themselves to be vulnerable does not make them less of a man. It makes them human.</p>
-
-         <p>Evan’s story sheds a light on that. Evan’s story is a wake-up call.</p>
-
-      <!-- End Quote about being a father -->
-      <audio id="music" preload="true">
-            <source src="../Soul-of-Athens/audio/Evan_FutureSon.mp3">
-      </audio>
-      <div id="audioplayer">
-            <button id="pButton" class="play"></button>
-                <div id="timeline">
-                    <div id="playhead"></div>
-                </div>
-      </div>
-      </div>
-      <!-- Close Audio Player -->
-    </div> <!-- close send section-->
-  </div> <!-- Close row 3-->
-
-
   </div>
   <!-- Close content div -->
 
@@ -482,7 +477,7 @@
     <div class="CenterText">
       <p>“If you’re feeling suicidal, talk to somebody. Call the National Suicide Prevention Lifeline at 1-800-273-8255; the Trans Lifeline at 1-877-565-8860; or the Trevor Project at 1-866-488-7386. Text ‘START’ to the Crisis Text Line at 741-741, or in Ohio, text ‘4HOPE.’ If you don’t like the phone, connect to the Lifeline Crisis Chat at crisischat.org.
       For more information, visit mha.ohio.gov/suicidereporting
-</p>
+      </p>
     </div>
   </div>
 

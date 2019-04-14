@@ -1,4 +1,5 @@
 console.log("Hello");
+
 // Audio player //
 var music = document.getElementById('music'); // id for audio element
 var duration = music.duration; // Duration of audio clip, calculated here for embedding purposes
@@ -101,33 +102,16 @@ music.addEventListener("canplaythrough", function() {
 }, false);
 
 // getPosition
+
 // Returns elements left position relative to top-left of viewport
 function getPosition(el) {
     return el.getBoundingClientRect().left;
 }
 
 
-// Play video
-
-// Get the video
-var video = document.getElementById("myVideo");
-
-// Get the button
-var btn = document.getElementById("pButtonVid");
-
-// Pause and play the video, and change the button text
-function playVid() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pause";
-  } else {
-    video.pause();
-    btn.innerHTML = "Play";
-  }
-}
 
 
-// Animate Pictures
+// Animate Pictures //––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 $(document).ready(function() {
   // Check if element is scrolled into view
   function isScrolledIntoView(elem) {
@@ -151,7 +135,7 @@ $(document).ready(function() {
 
 
 
-// Animate blockQuote
+// Animate blockQuote //––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 const resolver = {
   resolve: function resolve(options, callback) {
@@ -258,7 +242,7 @@ function callback() {
 resolver.resolve(options, callback);
 
 
-// SCROLLMAGIC
+// SCROLLMAGIC ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 // STEP 1: initiate the controller first
 $(function() {
@@ -274,11 +258,20 @@ $(function() {
   //STEP 3: build the SCENE
             new ScrollMagic.Scene({
                     triggerElement: ".trigger",
-                    triggerHook: "onLeave",
-                    duration: "200%"
+                    triggerHook: 0.5,
+                    duration: "30%"
                 })
-                .setPin(".pinned-cont", {pushFollowers: false})
                 .setTween(fadeInBg)
                 //.addIndicators()
                 .addTo(controller);
+
+            new ScrollMagic.Scene({
+                    triggerElement: ".trigger",
+                    triggerHook: "onLeave",
+                    duration: "190%"
+                    })
+                .setPin(".pinned-cont", {pushFollowers: false})
+                //.addIndicators()
+                .addTo(controller);
+
 });
