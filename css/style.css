@@ -8,9 +8,7 @@
   --main-blue-base: #6C8DA3;
 }
 
-.background{
-  background-color: green;
-}
+
 
 body {
   max-width: 100%;
@@ -53,7 +51,6 @@ img {
 
 .centeredContent{
   display: flex;
-  padding: 20px;
   margin: 75px 0px;
   align-items: center;
   flex-direction: column;
@@ -137,6 +134,10 @@ header {
   display: flex;
 }
 
+.bottomWarning {
+  margin-top: 50px;
+}
+
 .overlapText{
   width:70%;
   background-color: rgba(255,255,255,.8);
@@ -188,6 +189,7 @@ header {
 .vertical-center img {
     width: 100%;
     height: 100%;
+
     overflow: hidden;
 }
 
@@ -353,7 +355,8 @@ footer {
   /*align-items: center; */
   justify-content: center;
   height: 100%;
-  padding: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   text-transform:uppercase;
   font-weight: bold;
 }
@@ -382,7 +385,7 @@ footer {
 /* Mobile screens */
 @media only screen and (max-width: 760px) {
   .bodySection, .centeredContent {
-    padding: 0px 25px;
+    padding: 25px 0px;
   }
 
   .introHeader{
@@ -410,7 +413,7 @@ footer {
   .bodySection  {
     display: flex;
     flex-direction: row;
-    padding: 15px 15px 15px 15px;
+    padding: 15px 0px;
   }
 
 
@@ -436,4 +439,8 @@ footer {
   .footercontent{
     flex-direction: column;
   }
+}
+
+.background{
+  background-color: green;
 }
