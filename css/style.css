@@ -153,10 +153,6 @@ header {
   justify-content: center;
 }
 
-.wrapper-parallax {
-    margin-bottom: 300px;
-}
-
 
 .vertical-center {
     display: flex;
@@ -198,8 +194,6 @@ header {
 
 footer {
     width: 100%;
-    position: fixed;
-    z-index: -20;
     bottom: 0;
     background: #111;
     height: 300px;

@@ -264,19 +264,18 @@ resolver.resolve(options, callback);
 $(function() {
   // Init ScrollMagic Controller
   var controller = new ScrollMagic.Controller();
-    var fadeInBg = new TimelineMax()
-            .from(".trigger", 1, {
-                    autoAlpha:0
-            });
-  /* STEP 2: Create animation if desired
-    var slideBox = new TimelineMax()
-                });*/
+
+  /* STEP 2: Create animation if desired*/
+  var fadeInBg = new TimelineMax()
+          .from(".trigger", 1, {
+                  autoAlpha:0
+          });
 
   //STEP 3: build the SCENE
             new ScrollMagic.Scene({
                     triggerElement: ".trigger",
                     triggerHook: "onLeave",
-                    duration: "50%"
+                    duration: "200%"
                 })
                 .setPin(".pinned-cont", {pushFollowers: false})
                 .setTween(fadeInBg)
