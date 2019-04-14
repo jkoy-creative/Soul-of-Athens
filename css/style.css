@@ -41,13 +41,20 @@ img {
   /* Do I apply flex? */
 }
 
-.bodySection, .endSection {
+.bodySection  {
   display: flex;
   flex-direction: row;
   padding: 100px 100px 100px 100px;
-
-
 }
+
+.centeredContent{
+  display: flex;
+  padding: 20px;
+  margin: 75px 0px;
+  align-items: center;
+  flex-direction: column;
+}
+
 
 .introPadding{
   margin-top: 0px;
@@ -70,11 +77,6 @@ img {
   display: flex;
 }
 
-.endSection{
-  margin: 75px 0px;
-  align-items: center;
-  flex-direction: column;
-}
 
 .introHeader {
   display:flex;
@@ -116,12 +118,20 @@ header {
   z-index: 2;
 }
 
-
-
 .bodyText{
   width:50%;
   margin-left: 50px;
   margin-right: 50px;
+}
+
+.overlapText{
+  width:70%;
+  background-color: rgba(255,255,255,.8);
+  paddding:20px;
+  display: flex;
+  margin: 50px 0px;
+  align-items: center;
+  flex-direction: column;
 }
 
 .subhead{
@@ -186,6 +196,7 @@ header {
     height: 100vh;
     width: 100vw;
     position: relative;
+    align-content: : center;
 }
 
 
@@ -198,6 +209,7 @@ footer {
     background: #111;
     height: 300px;
     display: flex;
+    border-top: 5px solid #6C8DA3;
 }
 
 
@@ -206,9 +218,10 @@ footer {
 #audioplayer{
 	width: 480px;
 	height: 60px;
-	margin: 50px auto auto auto;
+	margin: 50px;
   display: flex;
   flex-direction: row;
+  position: relative;
 }
 
 #pButton{
@@ -341,14 +354,14 @@ footer {
   .hideInDesktop{
     display:none;
   }
-  .bodySection, .endSection {
+  .bodySection, .centeredContent {
     max-width: 1280px;
   }
 }
 
 /* Mobile screens */
 @media only screen and (max-width: 760px) {
-  .bodySection, .endSection {
+  .bodySection, .centeredContent {
     margin: 0px 25px;
   }
 
