@@ -413,7 +413,7 @@ footer {
 
 
 .blockQuoteDiv{
-    height: 800px;
+    height: 500px;
     display: flex;
     flex-direction: row;
     width: 80%;
@@ -434,8 +434,18 @@ footer {
   }
 }
 
+@media only screen and (max-width: 950px){
+  .blockQuoteDiv {
+      height: 800px;
+  }
+
+  bodyText {
+    padding: 50px;
+  }
+}
+
 /* Mobile screens */
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 780px) {
   .bodySection, .centeredContent {
     padding: 25px 0px;
   }
@@ -504,6 +514,7 @@ footer {
     margin-right: 5%;
 
   }
+
 }
 
 .background{
