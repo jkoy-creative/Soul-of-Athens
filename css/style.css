@@ -32,7 +32,7 @@ img {
 
 .footercontent{
   flex-direction: row;
-  font-family: "Nunito Sans", "Lato", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   text-indent: 0px;
   margin: 75px;
   color: gray;
@@ -377,8 +377,9 @@ footer {
   display: flex;
   /*align-items: center; */
   justify-content: center;
+  flex-direction: row;
   height: 100%;
-  padding-top: 5rem;
+  padding-top: 2rem;
   padding-bottom: 5rem;
   text-transform:uppercase;
   font-weight: bold;
@@ -445,10 +446,10 @@ footer {
   .bodySection  {
     display: flex;
     flex-direction: row;
-    padding: 15px 0px;
+    margin: 20px 30px;
   }
 
-  .imageSection, .quote, .fullPhotoQuote {
+  .imageSection, .quote, .blockQuoteDiv, .bar {
     display: none;
   }
 
@@ -469,6 +470,14 @@ footer {
 
   .footercontent{
     flex-direction: column;
+  }
+
+  .addMobileHeight{
+    height: 100vh;
+  }
+
+  .addMobileMargins{
+    margin-top: 150px;
   }
 }
 

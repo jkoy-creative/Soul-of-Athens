@@ -214,9 +214,9 @@ const options = {
   // Initial position
   offset: 0,
   // Timeout between each random character
-  timeout: 15,
+  timeout: 20,
   // Number of random characters to show
-  iterations: 3,
+  iterations: 2,
   // Random characters to pick from
   characters: ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'x', 'y', 'x', 'z'],
   // String to resolve
@@ -293,7 +293,7 @@ $(function() {
             new ScrollMagic.Scene({
                     triggerElement: ".trigger2",
                     triggerHook: 0.5,
-                    duration: "30%"
+                    duration: "50%"
                 })
                 .setTween(fadeInBg)
                 //.addIndicators()

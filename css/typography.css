@@ -33,11 +33,11 @@ p {
 }
 
 .pullQuote{
-  font-family: "Nunito Sans", serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 40px;
   color: #c78b44;
   font-weight: bold;
-  line-height: 1;
+  line-height: 1.2;
   text-transform: uppercase;
   letter-spacing: .2rem;
   max-width: 1000px;
@@ -48,24 +48,24 @@ p {
 }
 
 .blockQuote{
-  font-family: "Nunito Sans", serif;
-  font-size: 40px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 35px;
   color: #FFFFFF;
   font-weight: bold;
-  line-height: 1;
+  line-height: .85;
   text-transform: uppercase;
   letter-spacing: .2rem;
   width:80%;
+  hyphens: auto;
 }
 
 h1 {
-  font-family: "Nunito Sans", "Lato", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 60px;
   margin-top: 15px;
   letter-spacing: .2rem;
-	text-transform:uppercase;
   width: 100%;
-  font-weight: lighter;
+  font-weight: bold;
   color: #FFFFFF;
 }
 
@@ -96,7 +96,7 @@ h4 {
 
 h5 {
   color:#c78b44;
-  font-family: "Nunito Sans", "Lato", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: .2rem;
@@ -104,7 +104,7 @@ h5 {
 
 .bottomWarning{
   color: #c78b44;
-  font-family: "Nunito Sans", "Lato", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 1rem;
   font-weight: 700;
 }
