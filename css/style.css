@@ -51,11 +51,22 @@ img {
 
 .centeredContent{
   display: flex;
-  margin: 75px 0px;
-  align-items: center;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.audioContent{
   flex-direction: column;
 }
 
+.overlapText{
+  width:70%;
+  background-color: rgba(255,255,255,.8);
+  display: flex;
+  margin: 50px 0px;
+  flex-direction: column;
+  z-index: 10;
+}
 
 .introPadding{
   margin-top: 0px;
@@ -139,17 +150,7 @@ header {
   margin-bottom: 75px;
 }
 
-.overlapText{
-  width:70%;
-  background-color: rgba(255,255,255,.8);
-  paddding:20px;
-  display: flex;
-  margin: 50px 0px;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  z-index: 10;
-}
+
 
 .subhead{
   width:35%;
@@ -194,6 +195,10 @@ header {
     overflow: hidden;
 }
 
+.american {
+  background-position:left;
+}
+
 /* ----------------- ROW 1 ---------------- */
 #row1 {
     width: 100%;
@@ -225,6 +230,15 @@ header {
 }
 
 
+  .bar{
+    background-color: #6C8DA3;
+    height:10px;
+    width:100px;
+    margin-top: 50px;
+    margin-left: 75px;
+  }
+
+
 
 /* Footer */
 
@@ -245,6 +259,7 @@ footer {
   display: flex;
   flex-direction: row;
   position: relative;
+  margin: 40px;
 }
 
 #pButton{
@@ -349,6 +364,13 @@ footer {
   /* position: fixed; */
 }
 
+.vertImage {
+  height: 500px;
+  width: auto;
+  overflow: hidden;
+  float: right;
+}
+
 
 /* Animated Text ___________________________________________________________ */
 .quote {
@@ -362,10 +384,19 @@ footer {
   font-weight: bold;
 }
 
-.pullQuotePic {
-  color: #eee;
+.blockQuote {
+  color: #000000;
   font-size: 5rem;
   font-weight: 300;
+  margin-left: 75px;
+}
+
+
+.blockQuoteDiv{
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
 }
 
 
@@ -416,7 +447,6 @@ footer {
     flex-direction: row;
     padding: 15px 0px;
   }
-
 
   .imageSection, .quote, .fullPhotoQuote {
     display: none;

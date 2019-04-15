@@ -242,7 +242,7 @@ function callback() {
 resolver.resolve(options, callback);
 
 
-// SCROLLMAGIC ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// SCROLLMAGIC Car Bottom ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 // STEP 1: initiate the controller first
 $(function() {
@@ -271,6 +271,40 @@ $(function() {
                     duration: "190%"
                     })
                 .setPin(".pinned-cont", {pushFollowers: false})
+                //.addIndicators()
+                .addTo(controller);
+
+});
+
+// SCROLLMAGIC Flag Picture ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// STEP 1: initiate the controller first
+$(function() {
+  // Init ScrollMagic Controller
+  var controller = new ScrollMagic.Controller();
+
+  /* STEP 2: Create animation if desired*/
+  var fadeInBg = new TimelineMax()
+          .from(".trigger2", 1, {
+                  autoAlpha:0
+          });
+
+  //STEP 3: build the SCENE
+            new ScrollMagic.Scene({
+                    triggerElement: ".trigger2",
+                    triggerHook: 0.5,
+                    duration: "30%"
+                })
+                .setTween(fadeInBg)
+                //.addIndicators()
+                .addTo(controller);
+
+            new ScrollMagic.Scene({
+                    triggerElement: ".trigger2",
+                    triggerHook: "onLeave",
+                    duration: "170%"
+                    })
+                .setPin(".pinned-cont2", {pushFollowers: false})
                 //.addIndicators()
                 .addTo(controller);
 

@@ -27,7 +27,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   z-index: 20;
 }
 
@@ -48,18 +47,17 @@
   z-index: 20;
 }
 
-.fullPhotoQuote{
+.doubleExposure{
   display: flex;
   position: relative;
   background-image: url("../img/desktopSelects/SOA_doubleExposure.jpg");
+
   /* Full height */
   height: 800px;
-  overflow:hidden;
-  background-color: #6C8DA3;
-  background-blend-mode: overlay;
 
-  /* Center and scale the image nicely */
+  /* Center and scale the image */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 20;
 }
