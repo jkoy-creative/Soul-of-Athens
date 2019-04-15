@@ -309,3 +309,37 @@ $(function() {
                 .addTo(controller);
 
 });
+
+// SCROLLMAGIC landscape ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// STEP 1: initiate the controller first
+$(function() {
+  // Init ScrollMagic Controller
+  var controller = new ScrollMagic.Controller();
+
+  /* STEP 2: Create animation if desired*/
+  var fadeInBg = new TimelineMax()
+          .from(".trigger3", 1, {
+                  autoAlpha:0
+          });
+
+  //STEP 3: build the SCENE
+            new ScrollMagic.Scene({
+                    triggerElement: ".trigger3",
+                    triggerHook: 0.5,
+                    duration: "50%"
+                })
+                .setTween(fadeInBg)
+                //.addIndicators()
+                .addTo(controller);
+
+            new ScrollMagic.Scene({
+                    triggerElement: ".trigger3",
+                    triggerHook: "onLeave",
+                    duration: "170%"
+                    })
+                .setPin(".pinned-cont3", {pushFollowers: false})
+                //.addIndicators()
+                .addTo(controller);
+
+});

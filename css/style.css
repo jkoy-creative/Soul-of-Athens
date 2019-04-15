@@ -142,14 +142,33 @@ header {
   width:100%;
   margin-left: 50px;
   margin-right: 50px;
-  display: flex;
+  font-size: 20px;
 }
 
 .bottomWarning {
+  display: flex;
   margin-top: 100px;
   margin-bottom: 75px;
+
 }
 
+.linkStyle a {
+  background: linear-gradient(to left, rgba(255,255,255,0) 50%, #6C8DA3 50%) 100% 98% / 220% 100% no-repeat;
+  color: #333;
+  cursor: pointer !important;
+  font-size: 20px;
+  font-family: "Nunito Sans", Arial, sans-serif;
+  font-style: italic;
+  padding: 2px 5px;
+  text-decoration: none;
+  transition: all .35s ease-in-out;
+}
+
+.linkStyle a:hover, .linkStyle a:focus {
+    background-position: 0 98%;
+    color: #000;
+    outline: none;
+    transition: all .5s ease-in-out; }
 
 
 .subhead{
@@ -478,6 +497,12 @@ footer {
 
   .addMobileMargins{
     margin-top: 150px;
+  }
+
+  .vimeoEmbedSection, .vimeoEmbedSection2, .vimeoEmbedSection3 {
+    margin-left: 5%;
+    margin-right: 5%;
+
   }
 }
 

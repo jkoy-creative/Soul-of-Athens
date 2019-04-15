@@ -43,8 +43,12 @@ p {
   max-width: 1000px;
 }
 
+.blue{
+  color: #6C8DA3;
+}
+
 .pullQuoteEnd{
-  margin-bottom: 50px;
+  color: #c78b44;
 }
 
 .blockQuote{
@@ -103,7 +107,7 @@ h5 {
 }
 
 .bottomWarning{
-  color: #c78b44;
+  color: #6C8DA3;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 1rem;
   font-weight: 700;
