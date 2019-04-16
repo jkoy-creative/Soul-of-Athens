@@ -52,18 +52,6 @@ p {
   color: #c78b44;
 }
 
-.blockQuote{
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: 35px;
-  color: #FFFFFF;
-  font-weight: bold;
-  line-height: .85;
-  text-transform: uppercase;
-  letter-spacing: .2rem;
-  width:80%;
-  hyphens: auto;
-}
-
 h1 {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 60px;
