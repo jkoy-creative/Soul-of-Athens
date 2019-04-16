@@ -436,7 +436,7 @@ footer {
 
 .blockQuote {
   font-family: 'Nunito Sans', sans-serif;
-  color: #6C8DA3;
+  color: #fff;
   line-height: .85;
   font-size: 5rem;
   letter-spacing: .2rem;
@@ -451,6 +451,7 @@ footer {
     display: flex;
     flex-direction: row;
     width: 80%;
+    background-color: #6C8DA3;
 }
 
 
