@@ -408,7 +408,7 @@ footer {
   justify-content: center;
 }
 
-.bigParagraphCenter{
+.content{
   display: flex;
   justify-content: center;
 }
@@ -502,7 +502,7 @@ footer {
   }
 
   bodyText {
-    padding: 50px;
+    margin: 50px;
   }
 }
 
