@@ -436,7 +436,9 @@ footer {
   }
   .centeredContent{
     max-width: 1200px;
-    width:100%;
+  }
+  .overlapText{
+
   }
   h1{
     font-size: 120px;
