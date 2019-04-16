@@ -28,10 +28,6 @@ p {
   text-align: left;
 }
 
-.centeredContent p{
-  padding: 0px 45px;
-}
-
 .pullQuote{
   font-family: 'Nunito Sans', sans-serif;
   font-size: 40px;
