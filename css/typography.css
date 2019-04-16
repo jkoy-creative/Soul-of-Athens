@@ -44,6 +44,10 @@ p {
   max-width: 1000px;
 }
 
+.pullQuoteBlack{
+  color: black;
+}
+
 .blue{
   color: #6C8DA3;
 }

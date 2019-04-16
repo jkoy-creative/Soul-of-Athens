@@ -48,11 +48,11 @@ img {
   flex-direction: row;
   padding: 100px 100px 100px 100px;
   justify-content: center;
-  align-items: center;
 }
 
 .centeredContent{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   margin: 50px 0px;
   align-items: center;
@@ -241,7 +241,6 @@ header {
 /* ----------------- ROW 1 ---------------- */
 #row1 {
     width: 100%;
-    background-color:darkgoldenrod;
     height: 100vh;
 }
 
@@ -398,10 +397,20 @@ footer {
 }
 
 .imageSection{
-  flex-direction: column;
   width: 50%;
   margin-top: 25px;
+  justify-content: center;
   /* position: fixed; */
+}
+
+.vertImgCent{
+  display: flex;
+  justify-content: center;
+}
+
+.bigParagraphCenter{
+  display: flex;
+  justify-content: center;
 }
 
 .vertImage {
