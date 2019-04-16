@@ -85,13 +85,30 @@ img {
 }
 
 .infographicSection{
-  flex-direction: row;
-  background-color: #6C8DA3;
-  opacity: 0.6;
-  height: 650px;
   display: flex;
+  background-color: #ffffff;
+  justify-content: center;
+  margin-left: 10%;
+  margin-right:10%;
 }
 
+.infoHeadline{
+  flex-direction: row;
+  width:100%;
+}
+
+.infographicContainer{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+
+}
+
+#canvas {
+  width:100%;
+  height:100%;
+  flex-direction: row;
+}
 
 .introHeader {
   display:flex;
