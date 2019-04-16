@@ -440,6 +440,10 @@ footer {
   h1{
     font-size: 120px;
   }
+
+  h4{
+    font-size: 52px;
+  }
 }
 
 /* Desktop and Above, restrict line-length */
