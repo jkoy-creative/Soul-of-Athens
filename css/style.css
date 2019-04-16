@@ -217,7 +217,7 @@ header {
   background: white;
   min-height: 500px;
   padding-bottom:50px;
-  justify-content: center;
+  margin: 0 auto;
 }
 
 
