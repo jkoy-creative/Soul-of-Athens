@@ -441,7 +441,8 @@ footer {
   font-size: 5rem;
   letter-spacing: .2rem;
   font-weight: 400;
-  margin-left: 75px;
+  margin-left: 60px;
+  margin-right: 20px;
   hyphens: auto;
 }
 
@@ -452,8 +453,6 @@ footer {
     flex-direction: row;
     width: 100%;
     background-color: #6C8DA3;
-    margin-left: 10%;
-    margin-right:10%;
 }
 
 
