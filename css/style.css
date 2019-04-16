@@ -48,6 +48,8 @@ img {
   flex-direction: row;
   padding: 100px 100px 100px 100px;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .centeredContent{
