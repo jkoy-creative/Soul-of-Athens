@@ -537,7 +537,10 @@ footer {
   .bodySection  {
     display: flex;
     flex-direction: row;
-    margin: 20px 30px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right:10%;
   }
 
   .imageSection, .quote, .blockQuoteDiv, .bar {
