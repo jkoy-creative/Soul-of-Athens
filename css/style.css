@@ -498,7 +498,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 950px){
+@media only screen and (max-width: 910px){
   .blockQuoteDiv {
       height: 800px;
   }
