@@ -423,6 +423,24 @@ footer {
 }
 
 
+/* iMac, restrict line-length */
+@media only screen and (min-width: 1600px) {
+  .inTextImages{
+    display: none;
+  }
+  .hideInDesktop{
+    display:none;
+  }
+  .bodySection {
+    max-width: 1600px;
+  }
+  .centeredContent{
+    max-width: 1200px;
+  }
+  h1{
+    font-size: 120px;
+  }
+}
 
 /* Desktop and Above, restrict line-length */
 @media only screen and (min-width: 780px) {
