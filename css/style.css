@@ -450,8 +450,10 @@ footer {
     height: 500px;
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 100%;
     background-color: #6C8DA3;
+    margin-left: 10%;
+    margin-right:10%;
 }
 
 
