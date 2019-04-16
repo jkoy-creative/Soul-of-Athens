@@ -425,10 +425,14 @@ footer {
 }
 
 .blockQuote {
-  color: #000000;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #6C8DA3;
+  line-height: .85;
   font-size: 5rem;
-  font-weight: 300;
+  letter-spacing: .2rem;
+  font-weight: 400;
   margin-left: 75px;
+  hyphens: auto;
 }
 
 
