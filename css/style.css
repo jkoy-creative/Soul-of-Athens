@@ -341,7 +341,8 @@ footer {
   flex-wrap: wrap;
   flex-direction: row;
   padding: 0;
-  margin: 0;
+  margin-left: 10%;
+  margin-right: 10%;
   overflow: hidden;
 
 }
