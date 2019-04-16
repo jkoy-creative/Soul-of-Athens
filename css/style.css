@@ -429,8 +429,11 @@ footer {
   .hideInDesktop{
     display:none;
   }
-  .bodySection, .centeredContent {
-    max-width: 1280px;
+  .bodySection {
+    max-width: 1600px;
+  }
+  .centeredContent{
+    max-width: 1200px;
   }
 }
 
@@ -451,7 +454,7 @@ footer {
   }
 
   .introHeader{
-    height:1000px;
+    height:100vh;
   }
 
   h1{

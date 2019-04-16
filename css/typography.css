@@ -67,6 +67,7 @@ h1 {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 60px;
   margin-top: 15px;
+  text-transform: uppercase;
   letter-spacing: .2rem;
   width: 100%;
   font-weight: lighter;
