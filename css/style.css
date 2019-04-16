@@ -48,12 +48,14 @@ img {
   flex-direction: row;
   padding: 100px 100px 100px 100px;
   justify-content: center;
+  align-items: center;
 }
 
 .centeredContent{
   display: flex;
   justify-content: center;
   margin: 50px 0px;
+  align-items: center;
 }
 
 .audioContent{
