@@ -74,6 +74,10 @@ img {
   z-index: 10;
 }
 
+.light {
+  background-color: rgba(255,255,255,.6);
+}
+
 .introPadding{
   margin-top: 0px;
   padding-top: 100px;
@@ -136,6 +140,8 @@ header {
   width: 100%;
   z-index: -1;
 }
+
+
 
 .progress-container{
   position:fixed;
@@ -445,7 +451,7 @@ footer {
   letter-spacing: .2rem;
   font-weight: 400;
   margin-left: 60px;
-  margin-right: 20px;
+  margin-right: 60px;
   hyphens: auto;
 }
 
@@ -471,7 +477,8 @@ footer {
     max-width: 1600px;
   }
   .overlapText{
-
+    margin-left: auto;
+    margin-right: auto;
   }
   h1{
     font-size: 120px;
@@ -482,6 +489,10 @@ footer {
   }
   .fullPhoto1 {
     height: 100vh;
+  }
+  .blockQuote {
+    margin-left: 300px;
+    margin-right: 300px;
   }
 }
 
@@ -498,6 +509,10 @@ footer {
   }
   .centeredContent{
     max-width: 1200px;
+  }
+  .bathroom{
+    max-height: 600px;
+    width: auto;
   }
 }
 

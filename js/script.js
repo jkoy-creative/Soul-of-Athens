@@ -326,7 +326,7 @@ $(function() {
   //STEP 3: build the SCENE
             new ScrollMagic.Scene({
                     triggerElement: ".trigger3",
-                    triggerHook: 0.5,
+                    triggerHook: 0.9,
                     duration: "50%"
                 })
                 .setTween(fadeInBg)
