@@ -30,18 +30,7 @@ img {
   width:100%;
 }
 
-.footercontent{
-  flex-direction: row;
-  font-family: 'Nunito Sans', sans-serif;
-  text-indent: 0px;
-  margin: 75px;
-  color: gray;
-  line-height: 2;
-  font-size: 15px;
-  font-weight: lighter;
-  text-transform: uppercase;
-  /* Do I apply flex? */
-}
+
 
 .bodySection  {
   display: flex;
@@ -289,13 +278,100 @@ header {
 
 /* Footer */
 
+.footercontent{
+  flex-direction: row;
+  font-family: 'Nunito Sans', sans-serif;
+  text-indent: 0px;
+  margin: 10%;
+  color: #c78b44;
+  line-height: 1.8;
+  font-size: 15px;
+  font-weight: lighter;
+  /* Do I apply flex? */
+}
+
 footer {
     width: 100%;
     bottom: 0;
     background: #111;
     display: flex;
     border-top: 5px solid #c78b44;
+    margin-top: 20px;
+    margin-bottom:20px;
+
 }
+
+.soaLogo{
+  flex-direction: column;
+  width: 40%;
+}
+
+.collapse .slide{
+  flex-direction: row;
+  width:100%;
+}
+
+h5 {
+  flex-direction: row;
+}
+
+.collapse {
+  cursor: pointer;
+  color: #fff;
+  padding-bottom:30px;
+  max-height:50px;
+  overflow:hidden;
+  transition: all 0.4s;
+}
+
+.collapse h5 {
+  font-size: 18px;
+  line-height: 20px;
+  position:relative;
+}
+
+.collapse h5::after{
+  content: "+";
+  text-align:center;
+  position:absolute;
+  width:15px;
+  height:15px;
+  font-size:12px;
+  line-height:15px;
+  right:0;
+  top:0;
+}
+.collapse:hover h5::after{
+  opacity:1
+}
+
+.collapse.active h5::after{
+  content: "-";
+}
+
+.collapse.active {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+  color:#444;
+  max-height:3000px;
+  transition: all 0.2s,max-height 4.8s;
+}
+
+.bottomBar{
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+li {
+  text-decoration: none;
+    flex-direction: row;
+}
+
 
 
 /* Audio Player ___________________________________________________________ */

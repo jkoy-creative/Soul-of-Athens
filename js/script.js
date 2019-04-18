@@ -343,3 +343,10 @@ $(function() {
                 .addTo(controller);
 
 });
+
+
+// COLLAPSE footer ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+$('.collapse').on('click',function(e){
+  e.preventDefault();
+  $(this).toggleClass('active');
+});

@@ -96,11 +96,12 @@ h4 {
 }
 
 h5 {
-  color:#c78b44;
+  color:#fff;
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 13px;
+  font-size: 20px;
   text-transform: uppercase;
   letter-spacing: .2rem;
+  font-weight: 100;
 }
 
 .bottomWarning{
