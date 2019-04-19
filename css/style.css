@@ -279,15 +279,15 @@ header {
 /* Footer */
 
 .footercontent{
-  flex-direction: row;
-  font-family: 'Nunito Sans', sans-serif;
-  text-indent: 0px;
-  margin: 10%;
-  color: #c78b44;
-  line-height: 1.8;
-  font-size: 15px;
-  font-weight: lighter;
-  /* Do I apply flex? */
+    text-align: left;
+    flex-direction: column;
+    font-family: 'Nunito Sans', sans-serif;
+    text-indent: 0px;
+    margin-left: 7%;
+    color: #c78b44;
+    font-size: 15px;
+    font-weight: lighter;
+    width: 50%;
 }
 
 footer {
@@ -296,14 +296,20 @@ footer {
     background: #111;
     display: flex;
     border-top: 5px solid #c78b44;
-    margin-top: 20px;
-    margin-bottom:20px;
 
 }
 
+.footerRow{
+  display: flex;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 .soaLogo{
+  display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 50%;
+  height: auto;
 }
 
 .collapse .slide{
@@ -372,6 +378,12 @@ li {
     flex-direction: row;
 }
 
+.listContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
 
 
 /* Audio Player ___________________________________________________________ */
@@ -431,6 +443,8 @@ li {
 
 }
 
+/*
+
 .photoBox:hover img.detail1 {
   transform: scale(1.2);
   transform-origin: 50% 50%;
@@ -453,6 +467,32 @@ li {
   transform: scale(1.2);
   transform-origin: 50% 50%;
   transition-duration: 9s;
+}
+
+*/
+
+.figure{
+  position: relative;
+  overflow: hidden;
+}
+
+figcaption {
+  position: absolute;
+  bottom: -60px;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  background: rgba(108,141,163,.8);
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: white;
+}
+
+figcaption p {
+  font-size: 12px;
+}
+.figure:hover figcaption {
+  bottom: 0;
 }
 
 .photoBox img {

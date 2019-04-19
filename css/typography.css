@@ -104,6 +104,14 @@ h5 {
   font-weight: 100;
 }
 
+h6 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 12px;
+  line-height: 1.8rem;
+  font-weight: 200;
+  margin: 10px;
+}
+
 .bottomWarning{
   color: #6C8DA3;
   font-family: 'Nunito Sans', sans-serif;
