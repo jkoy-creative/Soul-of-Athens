@@ -88,7 +88,7 @@ h3 {
 
 /* Headphones Disclaimer */
 h4 {
-  color:#6C8DA3;
+  color:#3d3d3d;
   font-family: 'EB Garamond', serif;
   font-size: 2rem;
   font-weight: 200;
@@ -126,7 +126,7 @@ h6 {
 
 .subhead{
   display: flex;
-  flex-direction: row;
   margin-left: 15%;
+  margin-top: 50px;
   margin-right: 15%;
 }

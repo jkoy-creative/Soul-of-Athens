@@ -39,6 +39,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .centeredContent{
@@ -76,6 +77,14 @@ img {
 
 .removeTopPadding {
   padding-top: 0px;
+}
+
+.removeBottomMargin {
+  margin-bottom: 0px;
+}
+
+.removeTopMargin {
+  margin-top: 0px;
 }
 
 .infographicSection{
@@ -118,7 +127,7 @@ img {
 
 
 header {
-  background-image: url('../img/SOA2019-26.jpg');
+  background-image: url('../img/desktopSelects/SOA_neighborhoodNight.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -258,11 +267,15 @@ header {
 
 
   .bar{
-    background-color: #6C8DA3;
-    height:10px;
-    width:100px;
-    margin-top: 50px;
-    margin-left: 75px;
+    background-color: #3d3d3d;
+    height:7px;
+    width:20%;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    flex-direction: row;
+
   }
 
 
