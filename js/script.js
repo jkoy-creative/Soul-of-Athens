@@ -113,8 +113,8 @@ function getPosition(el) {
 
 // Animate Pictures //––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 $(document).ready(function() {
-  // Check if element is scrolled into view
-  function isScrolledIntoView(elem) {
+// Check if element is scrolled into view
+function isScrolledIntoView(elem) {
   var docViewTop = $(window).scrollTop();
   var docViewBottom = docViewTop + $(window).height();
 
@@ -343,7 +343,6 @@ $(function() {
                 .addTo(controller);
 
 });
-
 
 // COLLAPSE footer ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 $('.collapse').on('click',function(e){
