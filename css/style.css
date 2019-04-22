@@ -51,6 +51,16 @@ img {
   align-items: center;
 }
 
+.centeredImage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow:hidden;
+  margin-top: 40px;
+  margin-left:10%;
+  margin-right:10%;
+}
+
 .audioContent{
   flex-direction: column;
 }
