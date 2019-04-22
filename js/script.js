@@ -345,7 +345,7 @@ $(function() {
 });
 
 // COLLAPSE footer ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-$('.bottomBar').on('click',function(e){
+$('.collapse').on('click',function(e){
   e.preventDefault();
-  $('.collapse').toggleClass('active');
+  $(this).toggleClass('active');
 });
