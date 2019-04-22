@@ -56,16 +56,14 @@ img {
 
 .overlapText{
   width:70%;
-  background-color: rgba(255,255,255,.8);
+  background-color: rgba(255,255,255,1);
   display: flex;
   margin: 50px 0px;
+  padding: 50px 0px;
   flex-direction: column;
   z-index: 10;
 }
 
-.light {
-  background-color: rgba(255,255,255,.6);
-}
 
 .introPadding{
   margin-top: 0px;
@@ -194,6 +192,7 @@ header {
   display: flex;
   flex-direction: row;
   margin-top: 15px;
+
 }
 
 /*.disclaimer {display: flex;
@@ -516,7 +515,7 @@ figcaption p {
 .photoBox{
   flex:50%;
   width: 100%;
-  padding: 0;
+  padding: 10;
   margin: 0;
   overflow: hidden;
 }
@@ -579,18 +578,18 @@ figcaption p {
 .blockQuote {
   font-family: 'Nunito Sans', sans-serif;
   color: #fff;
-  line-height: .85;
-  font-size: 5rem;
+  line-height: 1.1;
+  font-size: 4.5rem;
   letter-spacing: .2rem;
   font-weight: 400;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 80px;
+  margin-right: 80px;
   hyphens: auto;
 }
 
 
 .blockQuoteDiv{
-    height: 500px;
+    height: 550px;
     display: flex;
     flex-direction: row;
     width: 100%;

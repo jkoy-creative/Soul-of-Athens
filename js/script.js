@@ -202,9 +202,9 @@ const resolver = {
 
 //Insert Quote
 const strings = [
-  '“I was running on zero to two hours of sleep each night',
-  'having auditory hallucinations where I hear people call my name when I was home alone',
-  'and hear screams that sounded like they were right next to me',
+  '“I was running on zero to two hours of sleep each night...',
+  'having auditory hallucinations where I hear people call my name when I was home alone...',
+  'and hear screams that sounded like they were right next to me...',
   ' and I was even having false memories that oftentimes made no sense at all.”',
 ];
 
@@ -214,7 +214,7 @@ const options = {
   // Initial position
   offset: 0,
   // Timeout between each random character
-  timeout: 25,
+  timeout: 15,
   // Number of random characters to show
   iterations: 2,
   // Random characters to pick from
