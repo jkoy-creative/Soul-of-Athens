@@ -35,10 +35,10 @@ img {
 .bodySection  {
   display: flex;
   flex-direction: row;
-  padding: 100px 100px 100px 100px;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 100px;
 }
 
 .centeredContent{
@@ -151,7 +151,7 @@ header {
   flex-direction: column;
   width:50%;
   margin-left: 50px;
-  margin-right: 50px;
+  margin-right: 10%;
 }
 
 .CenterText{
@@ -186,14 +186,6 @@ header {
     outline: none;
     transition: all .5s ease-in-out; }
 
-
-.subhead{
-  width:35%;
-  display: flex;
-  flex-direction: row;
-  margin-top: 15px;
-
-}
 
 /*.disclaimer {display: flex;
   flex-direction: row;
@@ -513,10 +505,10 @@ figcaption p {
 }
 
 .photoBox{
-  flex:50%;
+  flex: 40%;
   width: 100%;
   padding: 10;
-  margin: 0;
+  margin: .5rem;
   overflow: hidden;
 }
 
@@ -540,6 +532,7 @@ figcaption p {
 .imageSection{
   width: 50%;
   margin-top: 25px;
+  margin-left: 10%;
   justify-content: center;
   /* position: fixed; */
 }
@@ -596,6 +589,10 @@ figcaption p {
     background-color: #000000;
 }
 
+.vertImgCent{
+  float: right;
+}
+
 
 /* iMac, restrict line-length */
 @media only screen and (min-width: 1600px) {
@@ -611,9 +608,6 @@ figcaption p {
   .overlapText{
     margin-left: auto;
     margin-right: auto;
-  }
-  h1{
-    font-size: 120px;
   }
 
   h4{
@@ -673,12 +667,6 @@ figcaption p {
     flex-direction: row;
   }
 
-  .subhead{
-    display: flex;
-    flex-direction: row;
-    width:80%;
-  }
-
   .bodyText{
     flex-direction: row;
     width:100%;
@@ -690,9 +678,7 @@ figcaption p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 20px;
-    margin-left: 10%;
-    margin-right:10%;
+
   }
 
   .imageSection, .quote, .blockQuoteDiv, .bar {
@@ -736,5 +722,4 @@ figcaption p {
 
 .background{
   background-color: green;
-  text-transform: uppercase;
 }

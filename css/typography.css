@@ -62,7 +62,7 @@ p {
 
 h1 {
   font-family: 'Nunito Sans', sans-serif;
-  font-size: 60px;
+  font-size: 5rem;
   margin-top: 15px;
   text-transform: uppercase;
   letter-spacing: .2rem;
@@ -90,9 +90,10 @@ h3 {
 h4 {
   color:#6C8DA3;
   font-family: 'EB Garamond', serif;
-  font-size: 26px;
+  font-size: 2rem;
   font-weight: 200;
   letter-spacing: .1rem;
+  text-align: center;
 }
 
 h5 {
@@ -121,4 +122,11 @@ h6 {
 
 .suicideSection::first-line{
   font-weight: bold;
+}
+
+.subhead{
+  display: flex;
+  flex-direction: row;
+  margin-left: 15%;
+  margin-right: 15%;
 }
