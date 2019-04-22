@@ -160,7 +160,7 @@ svg {
     stroke-dashoffset: 1000;
     fill: transparent;
   }
-  90% {
+  80% {
     stroke-dashoffset: 0;
     fill: transparent;
   }
@@ -168,10 +168,4 @@ svg {
     stroke-dashoffset: 0;
     fill: #fff;
   }
-}
-
-@keyframes hideshow {
-  0% { opacity: 0; }
-  50% { opacity: .5; }
-  100% { opacity: 1; }
 }

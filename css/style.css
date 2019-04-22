@@ -503,6 +503,8 @@ li {
   overflow: hidden;
 }
 
+
+
 figcaption {
   position: absolute;
   bottom: -80px;
@@ -561,8 +563,14 @@ figcaption p {
 }
 
 .vertImgCent{
-  display: flex;
+  flex-direction: column;
   justify-content: center;
+  float: right;
+  width: 60%;
+}
+
+.bathroom{
+    max-height: 600px;
 }
 
 .content{
@@ -612,10 +620,6 @@ figcaption p {
     background-color: #000000;
 }
 
-.vertImgCent{
-  float: right;
-}
-
 
 /* iMac, restrict line-length */
 @media only screen and (min-width: 1600px) {
@@ -659,10 +663,6 @@ figcaption p {
   .centeredContent{
     max-width: 1200px;
   }
-  .bathroom{
-    max-height: 600px;
-    width: auto;
-  }
 }
 
 @media only screen and (max-width: 910px){
@@ -701,7 +701,8 @@ figcaption p {
     display: flex;
     flex-direction: row;
     justify-content: center;
-
+    margin-left: 10%;
+    margin-right:10%;
   }
 
   .imageSection, .quote, .blockQuoteDiv, .bar {
