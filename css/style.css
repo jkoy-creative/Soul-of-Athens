@@ -736,4 +736,5 @@ figcaption p {
 
 .background{
   background-color: green;
+  text-transform: uppercase;
 }
