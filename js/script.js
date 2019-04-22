@@ -202,7 +202,7 @@ const resolver = {
 
 //Insert Quote
 const strings = [
-  'I was running on 0-2 hours of sleep each night',
+  '“I was running on zero to two hours of sleep each night',
   'having auditory hallucinations where I hear people call my name when I was home alone',
   'and hear screams that sounded like they were right next to me',
   ' and I was even having false memories that oftentimes made no sense at all.”',
@@ -236,7 +236,7 @@ function callback() {
 
     let nextOptions = Object.assign({}, options, {resolveString: strings[counter]});
     resolver.resolve(nextOptions, callback);
-  }, 1500);
+  }, 2500);
 }
 
 resolver.resolve(options, callback);

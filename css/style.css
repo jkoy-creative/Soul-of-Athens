@@ -305,6 +305,8 @@ footer {
   margin-right: 15%;
 }
 
+
+
 .soaLogo{
   display: flex;
   flex-direction: column;
@@ -369,19 +371,30 @@ h5 {
 }
 
 ul {
-  display: flex;
-  list-style-type: none;
+
 }
 
 li {
-  text-decoration: none;
     flex-direction: row;
+}
+
+.inTextList{
+  display: flex;
+}
+
+.inTextLI{
+  flex-direction: row;
 }
 
 .listContainer{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.listContainer ul {
+  list-style-type: none;
+  text-decoration: none;
 }
 
 
@@ -478,7 +491,7 @@ li {
 
 figcaption {
   position: absolute;
-  bottom: -60px;
+  bottom: -80px;
   left: 0;
   z-index: 2;
   width: 100%;
@@ -508,7 +521,11 @@ figcaption p {
   overflow: hidden;
 }
 
-
+.fullCaption {
+  display: flex;
+  margin-left: 10px;
+  flex-direction: row;
+}
 
 /* Photo Animations ___________________________________________________________ */
 
@@ -577,7 +594,7 @@ figcaption p {
     display: flex;
     flex-direction: row;
     width: 100%;
-    background-color: #6C8DA3;
+    background-color: #000000;
 }
 
 
