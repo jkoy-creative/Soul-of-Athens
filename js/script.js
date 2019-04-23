@@ -268,7 +268,7 @@ $(function() {
             new ScrollMagic.Scene({
                     triggerElement: ".trigger",
                     triggerHook: 0.2,
-                    duration: "200%"
+                    duration: "180%"
                     })
                 .setPin(".pinned-cont", {pushFollowers: false})
                 //.addIndicators()

@@ -691,8 +691,8 @@ figcaption p {
   .bodyText{
     flex-direction: row;
     width:100%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 
   .bodySection  {
@@ -741,16 +741,27 @@ figcaption p {
 
   .footerRow{
     display: flex;
+    flex-wrap: wrap;
+    margin-left:5%;
+    margin-right:5%;
   }
-  
+
   .soaLogo{
-    flex-direction: column;
+    flex-direction: row;
     width:100%;
+    flex-wrap: wrap;
+  }
+
+  .footercontent{
+    width:90%;
   }
 
   .listContainer{
-    flex-direction: column;
-    width:90%;
+    flex-direction: row;
+    width:100%;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-content: center;
   }
 
 
