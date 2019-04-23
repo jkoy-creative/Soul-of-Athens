@@ -24,7 +24,6 @@ img {
 
 .inTextImages{
   margin:0 10;
-  max-height: 700px;
   overflow: hidden;
   width:auto;
   width:100%;
@@ -692,8 +691,8 @@ figcaption p {
   .bodyText{
     flex-direction: row;
     width:100%;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .bodySection  {
