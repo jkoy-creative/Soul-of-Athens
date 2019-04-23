@@ -46,7 +46,7 @@
   z-index: 20;
 }
 
-.doubleExposure{
+.evanScreen{
   display: flex;
   position: relative;
   background-image: url("../img/desktopSelects/evanscreenportrait.JPG");
