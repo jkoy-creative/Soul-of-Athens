@@ -24,10 +24,7 @@ img {
 
 .inTextImages{
   margin:0 10;
-  max-height: 700px;
   overflow: hidden;
-  width:auto;
-  width:100%;
 }
 
 
@@ -98,26 +95,15 @@ img {
 }
 
 .infographicSection{
+  flex-direction: row;
   background-color: #ffffff;
   justify-content: center;
-  margin-left: 10%;
-  width:50%;
 }
 
 .infoHeadline{
   flex-direction: row;
   width:100%;
 }
-
-/* –––––––––––––––––––––––––––––––––––––– infographicSection –––––––––––––*/
-
-.infographicContainer{
-  display: flex;
-  flex-direction: row;
-
-}
-
-
 
 .introHeader {
   display:flex;
@@ -163,11 +149,14 @@ header {
 }
 
 .bodyText{
+  display: flex;
   flex-direction: column;
   width:50%;
   margin-left: 50px;
   margin-right: 10%;
 }
+
+
 
 .CenterText{
   width:100%;
@@ -546,18 +535,12 @@ li {
   width: 60%;
 }
 
-.bathroom{
-    max-height: 600px;
-}
-
 .content{
   display: flex;
   justify-content: center;
 }
 
 .vertImage {
-  height: 500px;
-  width: auto;
   overflow: hidden;
   float: right;
 }
@@ -648,14 +631,14 @@ li {
   }
 
   bodyText {
-    margin: 50px;
+   /*  margin: 50px; */
   }
 }
 
 /* Mobile screens */
 @media only screen and (max-width: 780px) {
   .bodySection, .centeredContent {
-    padding: 25px 0px;
+      padding: 25px 0px;
   }
 
   .introHeader{
@@ -668,7 +651,6 @@ li {
   }
 
   .bodyText{
-    flex-direction: row;
     width:100%;
     margin-left: 15px;
     margin-right: 15px;
@@ -676,10 +658,13 @@ li {
 
   .bodySection  {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     margin-left: 10%;
     margin-right:10%;
+  }
+
+  .infographicSection{
+    flex-direction: row;
   }
 
   .imageSection, .quote, .blockQuoteDiv, .bar {
@@ -691,6 +676,7 @@ li {
     flex-direction: column;
     overflow: hidden;
     width:100%;
+    height: auto;
   }
 
   .vimeoEmbedSection, .vimeoEmbedSection2 {
