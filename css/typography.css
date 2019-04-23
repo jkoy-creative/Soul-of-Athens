@@ -114,6 +114,12 @@ h6 {
   margin: 10px;
 }
 
+.removeLeftMargins h6 {
+  margin:0px;
+  margin-top: -25px;
+  margin-bottom: 25px;
+}
+
 .bottomWarning{
   color: #6C8DA3;
   font-family: 'Nunito Sans', sans-serif;

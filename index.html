@@ -76,27 +76,28 @@
     </div>
     <div class="bar"></div>
 
-    <div class="centeredImage removeTopMargin">
-        <img src="img/desktopSelects/SOA_headerImg.jpg">
+    <div class="photoGrid">
+
+      <div class="photoBox">
+        <img src="img/desktopSelects/SOA_headerImg.jpg" class="detail1">
+      </div><!-- Close Photo Box -->
+
+      <div class="photoBox">
+        <img src="img/desktopSelects/SOA_hunter.jpg" class="detail2">
+      </div><!-- Close Photo Box -->
+
+      <div class="fullCaption">
+        <h6>Evan works on his motorcycle on a cold Thursday evening in his Plains, Ohio storage unit that he and his roommates share.</h6>
+      </div>
+
     </div>
 
+
     <!-- SECTION -->
-      <div class="bodySection">
-          <!-- Section Images -->
-          <div class="imageSection scroll-animations">
-            <div class="swap animated figure">
-                <img class="vertBike" src="img/desktopSelects/SOA_hunter.jpg">
-                <div class="fullCaption">
-                  <h6>Evan works on his motorcycle on a cold Thursday evening in his Plains, Ohio storage unit that he and his roommates share.</h6>
-                </div>
-            </div>
-          </div>
-        <!-- Close Image Column -->
+      <div class="bodySection removeTopMargin">
 
           <!-- Section Copy -->
           <div class="bodyText bigParagraphCenter">
-
-
 
                <p><span class="padded-dropcap">U</span>nder a flickering fluorescent light in a storage unit, Evan Phillips and Hunter Lyerla are reattaching the carburetors to the engine on Evan’s 1982 Honda Nighthawk. Although he stands within an inch of his best friend, Evan feels detached from Hunter. Many college students Evan’s age are out to sample the party scene in Athens, Ohio walking under streetlights Uptown, past loud, pulsating music or maybe going to an underground house show. His Thursday night is far from that. He prefers quiet and isolation to a crowded bar.</p>
 
@@ -295,25 +296,83 @@
     <div class="bodySection removeTopMargin removeBottomMargin">
 
         <div id="infographicSection" class="infographicSection">
-
-          <div>
              <h3>
-                 Men Doing Things
+                 Leading Cause of Death 2015 - Males
              </h3>
-             <p>Data collected from Substance Abuse and Mental Health Services Administration 2015/2017 National Survey on Drug Use and Health: Detailed Tables.</p>
-             <div id="container">
-                <canvas id="canvas"></canvas>
-            </div>
+             <span class="removeLeftMargins">
+		             <h6>in percentage of US population</h6>
+	            </span>
+
+
+          <div id="container" style= height:"900px", width: "400px">
+            <canvas id="canvas"></canvas>
           </div>
-
-          <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.js"></script>
-
         </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.js"></script>
+
+        <script>
+          var barChartData = {
+              labels: [
+                "age 15-19",
+                "age 20-24",
+                "age 25-35"
+              ],
+              datasets: [
+                {
+                  label: "unintentional injuries",
+                  backgroundColor: "lightgray",
+                  borderColor: "lightgray",
+                  borderWidth: 1,
+                  data: [38.1, 42.3, 41.0]
+                },
+                {
+                  label: "suicide",
+                  backgroundColor: "black",
+                  borderColor: "black",
+                  borderWidth: 1,
+                  data: [21.4, 18.6, 15.4 ]
+                },
+                {
+                  label: "homicide",
+                  backgroundColor: "gray",
+                  borderColor: "gray",
+                  borderWidth: 1,
+                  data: [19.1, 18.2, 11.5 ]
+                }
+              ]
+            };
+            var chartOptions = {
+                  responsive: true,
+                  legend: {
+                  position: "top"
+                },
+                title: {
+                  display: false,
+                  text: "Leading Cause of Death 2015: Males"
+                },
+                scales: {
+                  yAxes: [{
+                    ticks: {
+                      beginAtZero: true
+                    }
+                  }]
+                }
+              }
+              window.onload = function() {
+                var ctx = document.getElementById("canvas").getContext("2d");
+              window.myBar = new Chart(ctx, {
+                type: "bar",
+                data: barChartData,
+                options: chartOptions
+              });
+            };
+          </script>
 
 
           <div class="bodyText">
 
-            <p>Forty years of research by the American Psychological Association  (APA) presents substantial evidence that Evan’s mental health issues stem from traditional masculinity ideology. According to the APA, men represent 77 percent of homicide victims and commit 90 percent of homicides in the United States. Men are most at risk of being victims of violent crime. Men are 3.5 times more likely than women to die by suicide, and their life expectancy is 4.9 years shorter than women’s. These numbers correlate directly with how men are supposed to think, feel and act: traditional masculinity ideology.</p>
+            <p>Forty years of research by the American Psychological Association  (APA) presents substantial evidence that Evan’s mental health issues stem from traditional masculinity ideology. According to the APA, men represent 77% of homicide victims and commit 90% of homicides in the United States. Men are most at risk of being victims of violent crime. Men are 3.5 times more likely than women to die by suicide, and their life expectancy is 4.9 years shorter than women’s. These numbers correlate directly with how men are supposed to think, feel and act: traditional masculinity ideology.</p>
 
           </div> <!-- Close Section Copy -->
       </div>
@@ -323,6 +382,8 @@
     <!-- SECTION -->
     <div class="bodySection removeTopMargin bigParagraphCenter">
       <!-- Section Images -->
+      <div class="imageSection scroll-animations">
+      </div>
 
       <!-- Close Image Div -->
 
@@ -427,7 +488,7 @@
           <p>“I was now on 20 times my prescribed dosage and decided that I was going to try to down some alcohol and see if I'd just pass out and not wake up,” Evan says. “I downed about half a bottle of Seagram's Gin, which I can no longer even look at, and laid in my bed, still on FaceTime. At this point she had no idea what I was doing. I just seemed like my normal self even after I took 20 milligrams or so. I just didn’t seem any different.”</p>
 
           <!-- Decide style for block quotes... codepen example? -->
-          <p class="pullQuote gray"> Evan decided to end his life that night. </p>
+          <p> Evan decided to end his life that night. </p>
 
           <p>Ten minutes after he drank the gin, his night took a different turn.</p>
 
@@ -677,7 +738,6 @@
 
             <!-- Personal -->
             <script type="text/javascript" src="../stoic/js/script.js"></script>
-            <script type="text/javascript" src="../stoic/js/chartData.js"></script>
 
     <!-- Close body tag -->
     </body>
