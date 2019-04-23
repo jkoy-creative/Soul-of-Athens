@@ -180,7 +180,7 @@ header {
 
 .bottomWarning {
   display: flex;
-  margin-top: 100px;
+  margin-top: 200px;
   margin-bottom: 75px;
   margin-right: 10%;
   margin-left:10%;
@@ -188,8 +188,8 @@ header {
 }
 
 .linkStyle a {
-  background: linear-gradient(to left, rgba(255,255,255,0) 50%, #6C8DA3 50%) 100% 98% / 220% 100% no-repeat;
-  color: #333;
+  background: linear-gradient(to left, rgba(61,61,61,0) 50%, #3d3d3d 50%) 100% 98% / 220% 100% no-repeat;
+  color: #6C8DA3;
   cursor: pointer !important;
   font-size: 20px;
   font-family: "Nunito Sans", Arial, sans-serif;
@@ -201,7 +201,7 @@ header {
 
 .linkStyle a:hover, .linkStyle a:focus {
     background-position: 0 98%;
-    color: #000;
+    color: #fff;
     outline: none;
     transition: all .5s ease-in-out; }
 

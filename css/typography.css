@@ -116,12 +116,11 @@ h6 {
 
 .removeLeftMargins h6 {
   margin:0px;
-  margin-top: -25px;
   margin-bottom: 25px;
 }
 
 .bottomWarning{
-  color: #6C8DA3;
+  color: #3d3d3d;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 1rem;
   font-weight: 700;
