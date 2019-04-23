@@ -242,7 +242,7 @@ function callback() {
 resolver.resolve(options, callback);
 
 
-// SCROLLMAGIC Car Bottom ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+// SCROLLMAGIC Portrait Bottom ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 // STEP 1: initiate the controller first
 $(function() {
@@ -258,7 +258,7 @@ $(function() {
   //STEP 3: build the SCENE
             new ScrollMagic.Scene({
                     triggerElement: ".trigger",
-                    triggerHook: 0.5,
+                    triggerHook: 0.9,
                     duration: "30%"
                 })
                 .setTween(fadeInBg)
@@ -267,8 +267,8 @@ $(function() {
 
             new ScrollMagic.Scene({
                     triggerElement: ".trigger",
-                    triggerHook: "onLeave",
-                    duration: "190%"
+                    triggerHook: 0.2,
+                    duration: "200%"
                     })
                 .setPin(".pinned-cont", {pushFollowers: false})
                 //.addIndicators()

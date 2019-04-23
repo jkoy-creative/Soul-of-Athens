@@ -739,6 +739,22 @@ figcaption p {
 
   }
 
+  .footerRow{
+    display: flex;
+  }
+  
+  .soaLogo{
+    flex-direction: column;
+    width:100%;
+  }
+
+  .listContainer{
+    flex-direction: column;
+    width:90%;
+  }
+
+
+
 }
 
 .background{
