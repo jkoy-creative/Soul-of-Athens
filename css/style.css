@@ -550,6 +550,16 @@ figcaption p {
   margin-left: 10px;
 }
 
+.fullWidthCaption{
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.fullWidthCaptionTimelapse{
+  flex-direction: column;
+  margin-left: 10%;  
+}
+
 /* Photo Animations ___________________________________________________________ */
 
 
