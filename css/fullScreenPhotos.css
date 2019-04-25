@@ -37,7 +37,8 @@
   background-image: url("../img/desktopSelects/SOA_doubleExposure.jpg");
 
   /* Full height */
-  height: 800px;
+  height: 100vh;
+
 
   /* Center and scale the image */
   background-position: center;

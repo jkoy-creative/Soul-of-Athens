@@ -144,7 +144,8 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  position: relative; /* fixed */
+  position: relative;
+  height: 100vh; /* fixed */
   top: 0;
   width: 100%;
   z-index: -1;
