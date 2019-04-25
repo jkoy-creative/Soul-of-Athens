@@ -557,7 +557,8 @@ figcaption p {
 
 .fullWidthCaptionTimelapse{
   flex-direction: column;
-  margin-left: 10%;  
+  margin-left: 10%;
+  margin-top: -50px;
 }
 
 /* Photo Animations ___________________________________________________________ */
@@ -688,6 +689,10 @@ figcaption p {
       height: 800px;
   }
 
+  .imageSection{
+    margin-left: 0;
+  }
+
   bodyText {
     margin: 50px;
   }
@@ -713,6 +718,23 @@ figcaption p {
     width:100%;
     margin-left: 0%;
     margin-right: 0%;
+  }
+
+  .fullCaption{
+    margin-left: 0;
+    margin-right:0;
+  }
+
+  .fullWidthCaption{
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right:5%;
+  }
+
+  .fullWidthCaptionTimelapse{
+    margin-left: 5%;
+    margin-right:5%;
+    margin-top: 0px;
   }
 
   .bodySection  {
