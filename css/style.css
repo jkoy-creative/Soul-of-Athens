@@ -44,6 +44,8 @@ img {
   justify-content: center;
   /* margin-left: auto;
   margin-right: auto; */
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 100px;
   margin-bottom: 100px;
 }
@@ -698,8 +700,8 @@ figcaption p {
   .bodyText{
     flex-direction: row;
     width:100%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 0%;
+    margin-right: 0%;
   }
 
   .bodySection  {
