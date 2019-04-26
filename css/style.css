@@ -144,6 +144,7 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
   position: relative;
   height: 100vh; /* fixed */
   top: 0;
@@ -327,6 +328,7 @@ footer {
   display: flex;
   margin-left: 15%;
   margin-right: 15%;
+  margin-bottom: 7%;
 }
 
 
@@ -347,7 +349,7 @@ h5 {
   flex-direction: row;
 }
 
-.collapse {
+/* .collapse {
   cursor: pointer;
   color: #fff;
   padding-bottom:30px;
@@ -386,7 +388,7 @@ h5 {
   color:#444;
   max-height:3000px;
   transition: all 0.2s,max-height 4.8s;
-}
+} */
 
 .bottomBar{
   margin-left: 10%;
@@ -411,6 +413,7 @@ li {
 }
 
 .listContainer{
+  margin-top: 7%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -704,9 +707,9 @@ figcaption p {
     padding: 25px 0px;
   }
 
-  .introHeader{
+  /* .introHeader{
     height:100vh;
-  }
+  } */
 
   h1{
     display: flex;
