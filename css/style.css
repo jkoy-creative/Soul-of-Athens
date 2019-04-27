@@ -143,9 +143,9 @@ header {
   background-image: url('../img/desktopSelects/SOA_neighborhoodNight.jpg');
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   position: relative;
+  min-height: 400;
   height: 100vh; /* fixed */
   top: 0;
   width: 100%;
